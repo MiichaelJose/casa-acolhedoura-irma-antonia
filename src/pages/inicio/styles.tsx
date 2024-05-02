@@ -10,7 +10,7 @@ export const Main = styled.main`
     .introducao-sobre {
         width: 100%;
         max-width: 500px;
-        height: 500px;
+        height: 400px;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -30,7 +30,7 @@ export const Main = styled.main`
     .imagem-valores {
         width: 100%;
         max-width: 500px;
-        height: 500px;
+        height: 400px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -142,12 +142,6 @@ export const Section = styled.section`
 
         > p {
             margin-top: 2rem;
-        }
-
-        > div {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
         }
 
         > img {

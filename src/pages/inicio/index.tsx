@@ -78,7 +78,7 @@ export default function Home() {
                         </div>
 
                         <div>
-                            <Button color={'#ADD8E6'}> QUEM SOMOS?</Button>
+                            <Button color={'#98FB98'}>FAÇA UMA DOAÇÃO</Button>
                             <Button color={'#FFFFCC'}>SEJA VOLUNTÁRIO</Button>
                         </div>
                     </div >
@@ -90,11 +90,6 @@ export default function Home() {
                         R. Mal. Floriano Peixoto, 443 - Jardim Berlim, Jaguariúna - SP, 13820-000</p>
 
                         <img src={iconeCasaMao} alt="" />
-
-                        <div>
-                            <Button color={'#ADD8E6'}> QUEM SOMOS?</Button>
-                            <Button color={'#98FB98'}>FAÇA UMA DOAÇÃO</Button>
-                        </div>
                     </div >
                 </div>
                 
