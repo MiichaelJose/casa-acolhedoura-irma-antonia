@@ -22,13 +22,38 @@ export const Main = styled.header`
     .barra {
         height: 42px;
     }
-    .links-cabecalho {
-        display: none;
-        visibility: hidden;
-    }
-    .links-rede-social {
+    .links-cabecalho, .links-rede-social {
         display: none;
         visibility: hidden;
     }
     
+    @media screen and (min-width: 768px) {
+        .barra {
+            display: none;
+            visibility: hidden;
+        }
+
+        .links-cabecalho, .links-rede-social {
+            display: flex;
+            visibility: visible;
+        }
+
+        .links-cabecalho {
+            display: flex;
+            justify-content: space-evenly;
+            width: 400px;
+        }
+
+        .links-rede-social {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 120px;
+
+            > img {
+                width: 26px;
+                height: 26px;
+            }
+        }
+    }
 `

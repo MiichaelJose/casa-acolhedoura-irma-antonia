@@ -21,13 +21,16 @@ export default createGlobalStyle`
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-style: normal;
+        font-size: 0.9rem;
     }
 
-    button {
+    button, a {
         font-family: "Montserrat Alternates", sans-serif;
         font-weight: 700;
-        font-style: bold;
         border: none;
+        text-decoration: none;
+        color: black;
+        font-size: 0.8rem;
     }
 
     span {
