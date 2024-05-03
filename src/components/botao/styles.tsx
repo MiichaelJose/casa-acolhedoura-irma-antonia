@@ -3,11 +3,11 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 interface BotaoProps {
-    backgroundColor: string;
+    backgroundcolor: string;
 }
 
 export const Botao = styled(Link)<BotaoProps>`
-    background-color: ${(props) => props.backgroundColor};
+    background-color: ${(props) => props.backgroundcolor};
     margin-top: 2rem;
     width: 150px;
     height: 35px;

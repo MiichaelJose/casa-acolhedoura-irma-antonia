@@ -18,6 +18,7 @@ export const Main = styled.main`
 
         > p {
             margin-top: 2rem;
+            font-weight: bold;
         }
         
         > div {
@@ -67,13 +68,15 @@ export const Main = styled.main`
     
     @media screen and (min-width: 768px) {
         flex-direction: unset;
+        height: 86vh;
     }
 `
 
 export const Section = styled.section`
     background-image: url('/y-so-serious-white.png');
     padding: 0.5rem;
-
+    margin-top: 2rem;
+    
     .conteudo {
         display: flex;
         justify-content: center;
@@ -151,7 +154,13 @@ export const Section = styled.section`
     }
 
     @media screen and (min-width: 768px) {
-        
+        .caixas {
+            width: 550px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
     }
 `
 

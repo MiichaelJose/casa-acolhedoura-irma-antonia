@@ -7,6 +7,6 @@ interface ButtonProps {
 
 export default function Button({ children, color }: ButtonProps) {
     return (
-        <Botao to={'/'} backgroundColor={color}>{children}</Botao>
+        <Botao to={'/'} backgroundcolor={color}>{children}</Botao>
     );
 }
