@@ -7,6 +7,7 @@ interface BotaoProps {
 }
 
 export const Botao = styled(Link)<BotaoProps>`
+    display: block;
     background-color: ${(props) => props.backgroundcolor};
     margin-top: 2rem;
     width: 150px;

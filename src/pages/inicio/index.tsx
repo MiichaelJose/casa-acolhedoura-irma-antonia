@@ -16,43 +16,43 @@ export default function Home() {
         <>
             <Header/>
             <Main>
-                <div className='introducao-sobre'>
-                    <h2>Casa Acolhedora <br/> Irmã Antônia</h2>
-                    
-                    <p>Organização localizada na cidade de Jaguariúna dedicada a oferecer atendimento e acolhimento para homens, mulheres e famílias que se encontram em situação de vulnerabilidade social ou risco.</p>
+                    <div className='introducao-sobre'>
+                        <h2>Casa Acolhedora <br/> Irmã Antônia</h2>
+                        
+                        <p>Organização localizada na cidade de Jaguariúna dedicada a oferecer atendimento e acolhimento para homens, mulheres e famílias que se encontram em situação de vulnerabilidade social ou risco.</p>
 
-                    <div>
-                        <Button color={'#ADD8E6'}> QUEM SOMOS?</Button>
-                        <Button color={'#98FB98'}>FAÇA UMA DOAÇÃO</Button>
+                        <div>
+                            <Button color={'#ADD8E6'}> QUEM SOMOS?</Button>
+                            <Button color={'#98FB98'}>FAÇA UMA DOAÇÃO</Button>
+                        </div>
+                    </div >
+
+                    <div className='imagem-valores'>
+                        
+                        <img src={imagemEquipe} alt="" />
+
+                        <section>
+                            <div>
+                                <img src={iconeBandeira} alt="" />
+                                <span>NOSSOS <br/> VALORES</span>
+                            </div>
+                            <div>
+                                <img src={iconeMao} alt="" />
+                                <span>COMO <br/> AJUDAR</span>
+                            </div>
+                            <div>
+                                <img src={iconeBandeira} alt="" />
+                                <span>NOSSAS <br/> AÇÕES</span>
+                            </div>
+                        </section>
                     </div>
-                </div >
-
-                <div className='imagem-valores'>
-                    
-                    <img src={imagemEquipe} alt="" />
-
-                    <section>
-                        <div>
-                            <img src={iconeBandeira} alt="" />
-                            <span>NOSSOS <br/> VALORES</span>
-                        </div>
-                        <div>
-                            <img src={iconeMao} alt="" />
-                            <span>COMO <br/> AJUDAR</span>
-                        </div>
-                        <div>
-                            <img src={iconeBandeira} alt="" />
-                            <span>NOSSAS <br/> AÇÕES</span>
-                        </div>
-                    </section>
-                </div>
             </Main>
             <Section>
-                <div className='conteudo'>
+                <div className="conteudo">
                     <div className='compromissos'>
                         <h2>Nossos Compromissos</h2>
                         
-                        <p>Oferecemos uma variedade de serviços para atender às necessidades dos indivíduos e famílias em situação de vulnerabilidade, incluindo:</p>
+                        <p>Alguns dos nossos compromissos para atender às necessidades dos indivíduos e famílias em situação de vulnerabilidade, incluindo:</p>
 
                         <div className='caixas'>
                             <div>
@@ -77,7 +77,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div>
+                        <div className='botoes'>
                             <Button color={'#98FB98'}>FAÇA UMA DOAÇÃO</Button>
                             <Button color={'#FFFFCC'}>SEJA VOLUNTÁRIO</Button>
                         </div>
@@ -92,7 +92,6 @@ export default function Home() {
                         <img src={iconeCasaMao} alt="" />
                     </div >
                 </div>
-                
             </Section>
         </>
     )

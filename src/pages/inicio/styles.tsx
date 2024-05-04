@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
+    width: 100%;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0.5rem;
+    margin-inline: auto;
 
     .introducao-sobre {
         width: 100%;
@@ -19,6 +22,7 @@ export const Main = styled.main`
         > p {
             margin-top: 2rem;
             font-weight: bold;
+            line-height: 1.5rem
         }
         
         > div {
@@ -31,23 +35,24 @@ export const Main = styled.main`
     .imagem-valores {
         width: 100%;
         max-width: 500px;
-        height: 400px;
+        height: 100%;
+        max-height: 400px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
 
         > img {
-            width: 90%;
-            max-width: 500px;
+            width: 100%;
+            max-width: 400px;
         }
 
         > section {
             display: flex;
             align-items: center;
             justify-content: space-around;
-            width: 90%;
-            max-width: 500px;
+            width: 100%;
+            max-width: 400px;
             height: 75px;
             margin-top: 5px;
             border-radius: 5px;
@@ -67,50 +72,61 @@ export const Main = styled.main`
     }
     
     @media screen and (min-width: 768px) {
-        flex-direction: unset;
         height: 86vh;
+        flex-direction: row;
+
+        .imagem-valores > img {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .imagem-valores > section {
+            max-width: 500px;
+        }
     }
 `
 
 export const Section = styled.section`
+    width: 100%;
     background-image: url('/y-so-serious-white.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0.5rem;
-    margin-top: 2rem;
-    
+    margin: 2rem auto 0;
+   
     .conteudo {
+        width: 100%;
+        max-width: 1000px; 
         display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
-        max-width: 1000px;
-        margin-inline: auto;
+        align-items: center;
     }
+
 
     .compromissos {
         width: 100%;
-        max-width: 500px;
+        max-width: 550px;
         
         h2 {
-            text-align: center;
+            text-align: left;
         }
 
         > p {
             margin-top: 2rem;
         }
 
-        > div {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
+        .botoes {   
+           width: fit-content;
+           margin-inline: auto;
         }
 
         .caixas {
             height: 300px;
             width: 100%;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: space-around;
+            display: grid;
+            place-items: center;
             
             > div {
                 width: 100%;
@@ -135,12 +151,12 @@ export const Section = styled.section`
     
     .localizaçao {
         width: 100%;
-        max-width: 500px;
+        max-width: 550px;
         height: 500px;
         margin-top: 2rem;
         
         h2 {
-            text-align: center;
+            text-align: right;
         }
 
         > p {
@@ -155,11 +171,22 @@ export const Section = styled.section`
 
     @media screen and (min-width: 768px) {
         .caixas {
-            width: 550px;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: flex-end;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .botoes {
+            display: inline-flex;
+            > a {
+                margin-right: 2rem;
+            }
+        }
+
+        .compromissos {
+            margin-right: auto;
+        }
+
+        .localizaçao {
+            margin-left: auto;
         }
     }
 `
