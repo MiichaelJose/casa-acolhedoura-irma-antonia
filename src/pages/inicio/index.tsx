@@ -1,4 +1,4 @@
-import { Main, Section } from './styles'
+import { Main, Section, Article } from './styles'
 
 import Header from '../../components/cabecalho'
 import Button from '../../components/botao'
@@ -10,6 +10,7 @@ import iconeCasa from '/house-solid.svg'
 import iconeCompasso from '/compass-solid.svg'
 import iconeMaoMed from '/hand-holding-medical-solid.svg'
 import iconeCasaMao from '/casa-mao.png'
+
 
 export default function Home() {
     return(
@@ -93,6 +94,18 @@ export default function Home() {
                     </div >
                 </div>
             </Section>
+            <Article>
+                <h2>Galeria de fotos</h2>
+
+                <div className='galeria'>
+                    <img src={'/g1.jpg'} alt="" />
+                    <img src={'/g2.jpg'} alt="" />
+                    <img src={'/g5.jpg'} alt="" />
+                    <img src={'/g4.jpg'} alt="" />
+                    <img src={'/g6.jpeg'} alt="" />
+                    <img src={'/g7.jpeg'} alt="" />
+                </div>
+            </Article>
         </>
     )
 }

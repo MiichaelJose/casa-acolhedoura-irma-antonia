@@ -152,7 +152,6 @@ export const Section = styled.section`
     .localizaçao {
         width: 100%;
         max-width: 550px;
-        height: 500px;
         margin-top: 2rem;
         
         h2 {
@@ -191,3 +190,37 @@ export const Section = styled.section`
     }
 `
 
+export const Article = styled.article`
+    width: 100%;
+    max-width: 1000px;
+    padding: 0.5rem;
+    margin: 2rem auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+
+    .galeria {
+        width: 100%;
+        height: 500px;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        gap: 5px;
+        margin-top: 2rem;
+        overflow-y: scroll;
+
+        > img {
+            width: 100%;
+            max-width: 400px;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .galeria {
+            grid-template-columns: 1fr 1fr 1fr;
+            overflow-y: visible;
+        }
+    }
+`
