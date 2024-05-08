@@ -35,4 +35,13 @@ export default createGlobalStyle`
         font-style: bold;
         font-size: 0.6rem;
     }
+
+    .icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .logo {
+        height: 72px;
+    }
 `

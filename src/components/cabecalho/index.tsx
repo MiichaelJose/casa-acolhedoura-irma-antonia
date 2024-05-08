@@ -20,9 +20,9 @@ export default function Header() {
                 </div>
 
                 <div className="links-rede-social">
-                    <img src={iconeWhatsapp} alt="whatsapp" />
-                    <img src={iconeInstagram} alt="instagram" />
-                    <img src={iconeFacebook} alt="facebook" />
+                    <img src={iconeWhatsapp} alt="whatsapp" className="icon"/>
+                    <img src={iconeInstagram} alt="instagram" className="icon"/>
+                    <img src={iconeFacebook} alt="facebook" className="icon"/>
                 </div>
 
                 <img src={iconeBarra} alt="icone-barra" className="barra"/>

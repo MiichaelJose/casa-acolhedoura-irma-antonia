@@ -203,7 +203,6 @@ export const Article = styled.article`
 
     .galeria {
         width: 100%;
-        height: 500px;
         display: grid;
         justify-items: center;
         grid-template-columns: 1fr;
@@ -214,6 +213,7 @@ export const Article = styled.article`
         > img {
             width: 100%;
             max-width: 400px;
+            height: 100%;
         }
     }
 

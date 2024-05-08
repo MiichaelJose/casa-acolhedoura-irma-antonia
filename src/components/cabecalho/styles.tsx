@@ -15,10 +15,6 @@ export const Main = styled.header`
         justify-content: space-between;
         margin-inline: auto;
     }
-    
-    .logo {
-        height: 72px;
-    }
     .barra {
         height: 42px;
     }
@@ -49,11 +45,6 @@ export const Main = styled.header`
             align-items: center;
             justify-content: space-between;
             width: 120px;
-
-            > img {
-                width: 26px;
-                height: 26px;
-            }
         }
     }
 `

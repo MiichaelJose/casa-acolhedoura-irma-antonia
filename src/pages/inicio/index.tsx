@@ -10,6 +10,7 @@ import iconeCasa from '/house-solid.svg'
 import iconeCompasso from '/compass-solid.svg'
 import iconeMaoMed from '/hand-holding-medical-solid.svg'
 import iconeCasaMao from '/casa-mao.png'
+import Footer from '../../components/rodape'
 
 
 export default function Home() {
@@ -106,6 +107,7 @@ export default function Home() {
                     <img src={'/g7.jpeg'} alt="" />
                 </div>
             </Article>
+            <Footer></Footer>
         </>
     )
 }
