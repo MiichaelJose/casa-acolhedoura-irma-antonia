@@ -107,7 +107,7 @@ export default function Home() {
                     <img src={'/g7.jpeg'} alt="" />
                 </div>
             </Article>
-            <Footer></Footer>
+            <Footer/>
         </>
     )
 }
