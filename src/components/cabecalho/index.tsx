@@ -1,4 +1,4 @@
-import { Main } from "./styles"
+import { Main, Link } from "./styles"
 
 import iconeLogo from '/casa.png'
 import iconeBarra from '/bars-solid.svg'
@@ -9,14 +9,16 @@ import iconeInstagram from '/instagram.png'
 export default function Header() {
     return(
         <Main>
-            <div>
-                <img src={iconeLogo} alt="icone-logo" className="logo"/>
+            <nav>
+                <Link to={"/"}>
+                    <img src={iconeLogo} alt="icone-logo" className="logo"/>
+                </Link>
 
                 <div className="links-cabecalho">
-                    <p>Quem Somos</p>
-                    <p>Galeria</p>
-                    <p>Transparência</p>
-                    <p>Doação</p>
+                    <Link to={"/quem-somos"}>Quem Somos</Link>
+                    <Link to={"/galeria"}>Galeria</Link>
+                    <Link to={"/transferencia"}>Transparência</Link>
+                    <Link to={"/doacao"}>Doação</Link>
                 </div>
 
                 <div className="links-rede-social">
@@ -26,7 +28,7 @@ export default function Header() {
                 </div>
 
                 <img src={iconeBarra} alt="icone-barra" className="barra"/>
-            </div>
+            </nav>
         </Main>
     )
 }

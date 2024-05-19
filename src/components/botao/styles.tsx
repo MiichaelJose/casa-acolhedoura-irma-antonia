@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
-import { Link } from 'react-router-dom';
+import { Link as link } from 'react-router-dom';
 
 interface BotaoProps {
     backgroundcolor: string;
 }
 
-export const Botao = styled(Link)<BotaoProps>`
+export const Link = styled(link)<BotaoProps>`
     display: block;
     background-color: ${(props) => props.backgroundcolor};
     margin-top: 2rem;

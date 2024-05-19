@@ -1,4 +1,4 @@
-import { Botao } from "./styles"
+import { Link } from "./styles"
 
 interface ButtonProps {
     children: string;
@@ -7,6 +7,6 @@ interface ButtonProps {
 
 export default function Button({ children, color }: ButtonProps) {
     return (
-        <Botao to={'/'} backgroundcolor={color}>{children}</Botao>
+    <Link to={'/'} backgroundcolor={color} className={"btn"}>{children}</Link>
     );
 }
