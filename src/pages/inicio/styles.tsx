@@ -1,14 +1,10 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
-    width: 100%;
-    max-width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0.5rem;
-    margin-inline: auto;
 
     .introducao-sobre {
         width: 100%;
@@ -191,15 +187,11 @@ export const Section = styled.section`
 `
 
 export const Article = styled.article`
-    width: 100%;
-    max-width: 1000px;
-    padding: 0.5rem;
     margin: 2rem auto 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-inline: auto;
 
     .galeria {
         width: 100%;

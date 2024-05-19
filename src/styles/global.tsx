@@ -7,7 +7,7 @@ export default createGlobalStyle`
         box-sizing: border-box;
     }
 
-    h2 {
+    h2, h3 {
         font-family: "Montserrat", sans-serif;
         font-style: normal;
         color: #8B0000;
@@ -54,5 +54,12 @@ export default createGlobalStyle`
 
     .logo {
         height: 72px;
+    }
+
+    .secao-padrao {
+        width: 100%;
+        max-width: 1000px;
+        padding: 0.5rem;
+        margin-inline: auto;
     }
 `

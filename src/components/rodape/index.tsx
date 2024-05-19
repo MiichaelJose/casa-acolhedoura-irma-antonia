@@ -1,4 +1,4 @@
-import { Main } from "./styles"
+import { Main, Link } from "./styles"
 
 import iconeLogo from '/casa.png'
 import iconeWhatsapp from '/whatsapp.png'
@@ -9,8 +9,8 @@ export default function Footer() {
     return(
         <Main>
             <div>
-                <p>Quem Somos</p>
-                <p>Galeria</p>
+                <Link to={"/quem-somos"} relative="path">Quem Somos</Link>
+                <Link to={"/galeria"}>Galeria</Link>
 
                 <div className="links-rede-social">
                     <img src={iconeLogo} alt="icone-logo" className="logo"/>
@@ -22,8 +22,8 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <p>Transparência</p>
-                <p>Doação</p>
+                <Link to={"/transferencia"} preventScrollReset={true}>Transparência</Link>
+                <Link to={"/doacao"}>Doação</Link>
             </div>
         </Main>
     )

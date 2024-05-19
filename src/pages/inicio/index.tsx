@@ -2,6 +2,7 @@ import { Main, Section, Article } from './styles'
 
 import Header from '../../components/cabecalho'
 import Button from '../../components/botao'
+import Footer from '../../components/rodape'
 
 import imagemEquipe from '/equipe.jpg'
 import iconeBandeira from '/flag-solid.svg'
@@ -10,14 +11,12 @@ import iconeCasa from '/house-solid.svg'
 import iconeCompasso from '/compass-solid.svg'
 import iconeMaoMed from '/hand-holding-medical-solid.svg'
 import iconeCasaMao from '/casa-mao.png'
-import Footer from '../../components/rodape'
 
-
-export default function Home() {
+export default function Inicio() {
     return(
         <>
             <Header/>
-            <Main>
+            <Main className='secao-padrao'>
                     <div className='introducao-sobre'>
                         <h2>Casa Acolhedora <br/> Irmã Antônia</h2>
                         
@@ -95,7 +94,7 @@ export default function Home() {
                     </div >
                 </div>
             </Section>
-            <Article>
+            <Article className='secao-padrao'>
                 <h2>Galeria de fotos</h2>
 
                 <div className='galeria'>

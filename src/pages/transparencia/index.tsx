@@ -1,7 +1,6 @@
 import { Main } from './styles'
 
 import Header from '../../components/cabecalho'
-import Footer from '../../components/rodape'
 
 import iconFilter from "/arrow-down-wide-short-solid.svg"
 import iconDocument from "/file-lines-regular.svg"
@@ -10,7 +9,7 @@ export default function Transparencia() {
     return(
         <>
             <Header/>
-            <Main>
+            <Main className='secao-padrao'>
                 <h2>TRANSPARÊNCIA</h2>
                 <div className='filtro'>
                     <button>
@@ -33,7 +32,6 @@ export default function Transparencia() {
                     <div className='card'></div>  
                 </section>
             </Main>
-            <Footer/>
         </>
     )
 }

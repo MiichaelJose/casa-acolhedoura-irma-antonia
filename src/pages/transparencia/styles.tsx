@@ -1,10 +1,6 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
-    width: 100%;
-    max-width: 1000px;
-    padding: 0.5rem;
-    margin-inline: auto;
     text-align: center;
 
     h2 {
@@ -27,6 +23,8 @@ export const Main = styled.main`
     section {
         display: grid;
         place-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
         margin-top: 2rem;
     }
 
@@ -45,6 +43,7 @@ export const Main = styled.main`
 
             > p {
                 margin:5px 0;
+                font-weight: bold;
             }
         }
         > button {

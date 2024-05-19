@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { Link as link} from "react-router-dom"
+
 export const Main = styled.footer`
     height: 130px;
     display: flex;
@@ -46,4 +48,8 @@ export const Main = styled.footer`
             }
         }
     }
+`
+
+export const Link = styled(link)`
+    font-weight: 400;
 `
