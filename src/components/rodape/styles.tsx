@@ -42,7 +42,7 @@ export const Main = styled.footer`
         > div {
             justify-content: space-between;
 
-            > p {
+            > a {
                 visibility: visible;
                 display: initial;
             }
@@ -52,4 +52,6 @@ export const Main = styled.footer`
 
 export const Link = styled(link)`
     font-weight: 400;
+    visibility: visible;
+    display: none;
 `
