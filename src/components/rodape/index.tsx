@@ -13,7 +13,7 @@ export default function Footer() {
                 <Link to={"/galeria"}>Galeria</Link>
 
                 <div className="links-rede-social">
-                    <img src={iconeLogo} alt="icone-logo" className="logo"/>
+                    <Link to={"/"}><img src={iconeLogo} alt="icone-logo" className="logo"/></Link>
 
                     <div>
                         <img src={iconeWhatsapp} alt="whatsapp" className="icon"/>
