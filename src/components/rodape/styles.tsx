@@ -22,6 +22,11 @@ export const Main = styled.footer`
             visibility: hidden;
             display: none;
         }
+
+        > a {
+            visibility: hidden;
+            display: none;
+        }
     }
 
     .links-rede-social {
@@ -52,6 +57,5 @@ export const Main = styled.footer`
 
 export const Link = styled(link)`
     font-weight: 400;
-    visibility: visible;
-    display: none;
+    
 `
