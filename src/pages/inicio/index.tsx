@@ -23,8 +23,8 @@ export default function Inicio() {
                         <p>Organização localizada na cidade de Jaguariúna dedicada a oferecer atendimento e acolhimento para homens, mulheres e famílias que se encontram em situação de vulnerabilidade social ou risco.</p>
 
                         <div>
-                            <Button color={'#ADD8E6'}> QUEM SOMOS?</Button>
-                            <Button color={'#98FB98'}>FAÇA UMA DOAÇÃO</Button>
+                            <Button  to={"/transparencia"} color={'#ADD8E6'}> QUEM SOMOS?</Button>
+                            <Button  to={"/transparencia"} color={'#98FB98'}>FAÇA UMA DOAÇÃO</Button>
                         </div>
                     </div >
 
