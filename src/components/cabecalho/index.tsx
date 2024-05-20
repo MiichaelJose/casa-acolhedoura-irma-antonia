@@ -17,7 +17,7 @@ export default function Header() {
                 <div className="links-cabecalho">
                     <Link to={"/quem-somos"}>Quem Somos</Link>
                     <Link to={"/galeria"}>Galeria</Link>
-                    <Link to={"/transferencia"}>Transparência</Link>
+                    <Link to={"/transparencia"}>Transparência</Link>
                     <Link to={"/doacao"}>Doação</Link>
                 </div>
 

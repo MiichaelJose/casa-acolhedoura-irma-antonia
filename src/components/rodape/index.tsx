@@ -22,7 +22,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <Link to={"/transferencia"} preventScrollReset={true}>Transparência</Link>
+                <Link to={"/transparencia"} preventScrollReset={true}>Transparência</Link>
                 <Link to={"/doacao"}>Doação</Link>
             </div>
         </Main>
