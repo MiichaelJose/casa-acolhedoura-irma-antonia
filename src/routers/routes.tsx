@@ -8,7 +8,7 @@ export function GroupRouters() {
     return(
         <Routes>
             <Route path="/" element={<Inicio/>}/>
-            <Route path="/transferencia" element={<Transparencia/>}/>
+            <Route path="/transparencia" element={<Transparencia/>}/>
             <Route path="/quem-somos" element={<QuemSomos/>}/>
         </Routes>
     )
