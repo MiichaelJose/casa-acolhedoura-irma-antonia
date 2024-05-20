@@ -58,8 +58,8 @@ export default function QuemSomos() {
                     </div>
 
                     <div className='botoes'>
-                        <Button color={'#98FB98'}>FAÇA UMA DOAÇÃO</Button>
-                        <Button color={'#FFFFCC'}>SEJA VOLUNTÁRIO</Button>
+                        <Button link="1" color={'#98FB98'}>FAÇA UMA DOAÇÃO</Button>
+                        <Button link="1" color={'#FFFFCC'}>SEJA VOLUNTÁRIO</Button>
                     </div>
                 </div>
             </Main>

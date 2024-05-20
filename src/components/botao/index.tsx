@@ -7,7 +7,10 @@ interface ButtonProps {
 }
 
 export default function Button({ children, color, link }: ButtonProps) {
-     return <><Link to={link} backgroundcolor={color} className={"btn"}>{children}</Link></>
-        
+    console.log(link);
     
+    let href:any = null
+
+    if(link == "1") href = "/quem-somos"
+    return <><Link to={href} backgroundcolor={color} className={"btn"}>{children}</Link></>
 }
