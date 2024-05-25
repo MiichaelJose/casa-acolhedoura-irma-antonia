@@ -1,79 +1,78 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
-    h2 {
-        text-align: center;
-        margin-top: 2rem;
+  h2 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  > p {
+    margin-top: 2rem;
+    line-height: 1.5rem;
+  }
+
+  > div {
+    background-image: url("/y-so-serious-white.png");
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
+  .secao-valores-acoes {
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+      margin-top: 1rem;
     }
 
-    > p {
-        margin-top: 2rem;
-        line-height: 1.5rem;
-    }
+    div {
+      width: 100%;
+      margin: 1rem auto;
 
-    > div {
-        background-image: url('/y-so-serious-white.png');
-        padding: 1rem;
-        margin-top: 1rem;
-    }
-
-    .secao-valores-acoes {
+      > div {
         display: flex;
-        flex-direction: column;
+        align-items: center;
+      }
 
-        h3 {
-            margin-top: 1rem;
-        }
+      img {
+        margin-right: 1rem;
+      }
+    }
+  }
 
-        div {
-            width: 100%;
-            margin: 1rem auto ;
+  .localização {
+    width: 100%;
+    max-width: 550px;
 
-            > div {
-                display: flex;
-                align-items: center;
-            }
-
-            img {
-                margin-right: 1rem;
-            }
-        }
-
+    p {
+      margin-top: 2rem;
     }
 
-    .localização {
-        width: 100%;
-        max-width: 550px;
+    h3 {
+      margin-top: 2rem;
+    }
+    > img {
+      width: 100%;
+      margin-top: 2rem;
+    }
+  }
 
-        p {
-            margin-top: 2rem;  
-        }
+  .botoes {
+    width: fit-content;
+    margin-inline: auto;
+  }
 
-        h3 {
-            margin-top: 2rem;   
-        }
-        > img {
-            width: 100%;
-            margin-top: 2rem;  
-        }
+  @media screen and (min-width: 768px) {
+    .secao-valores-acoes > div {
+      max-width: 80%;
+      margin-inline: auto;
     }
 
     .botoes {
-        width: fit-content;
-        margin-inline: auto;
+      display: inline-flex;
+      > a {
+        margin-right: 2rem;
+      }
     }
-
-    @media screen and (min-width: 768px) {
-        .secao-valores-acoes > div {
-            max-width: 80%;
-            margin-inline:auto;
-        }
-
-        .botoes {
-            display: inline-flex;
-            > a {
-                margin-right: 2rem;
-            }
-        }
-    }
-`
+  }
+`;
