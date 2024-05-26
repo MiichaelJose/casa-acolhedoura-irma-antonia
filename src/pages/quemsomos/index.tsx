@@ -6,7 +6,7 @@ import iconeMao from "/hand-holding-medical-solid.svg";
 import iconeCasaMao from "/casa-mao.png";
 import Button from "../../components/botao";
 
-export default function QuemSomos() {
+export default function About() {
   return (
     <>
       <Header />

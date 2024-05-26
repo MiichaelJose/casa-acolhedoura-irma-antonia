@@ -5,7 +5,7 @@ import Header from "../../components/cabecalho";
 import iconFilter from "/arrow-down-wide-short-solid.svg";
 import iconDocument from "/file-lines-regular.svg";
 
-export default function Transparencia() {
+export default function Transparency() {
   return (
     <>
       <Header />

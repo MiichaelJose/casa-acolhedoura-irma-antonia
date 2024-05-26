@@ -1,15 +1,19 @@
 import { Route, Routes } from "react-router-dom";
 
-import Inicio from "../pages/inicio";
-import Transparencia from "../pages/transparencia";
-import QuemSomos from "../pages/quemsomos";
+import Home from "../pages/inicio";
+import Transparency from "../pages/transparencia";
+import About from "../pages/quemsomos";
+import Galery from "../pages/galeria";
+import Donation from "../pages/doacao";
 
 export function GroupRouters() {
   return (
     <Routes>
-      <Route path="/" element={<Inicio />} />
-      <Route path="/transparencia" element={<Transparencia />} />
-      <Route path="/quem-somos" element={<QuemSomos />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/transparencia" element={<Transparency />} />
+      <Route path="/quem-somos" element={<About />} />
+      <Route path="/galeria" element={<Galery />} />
+      <Route path="/doacao" element={<Donation />} />
     </Routes>
   );
 }
