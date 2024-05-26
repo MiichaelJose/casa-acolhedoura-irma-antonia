@@ -3,7 +3,7 @@ import { Main } from "./styles";
 import Header from "../../components/cabecalho";
 import Footer from "../../components/rodape";
 import iconeMao from "/hand-holding-medical-solid.svg";
-import iconeCasaMao from "/casa-mao.png";
+import iconeCasaMao from "/galery/casa-mao.png";
 import Button from "../../components/botao";
 
 export default function About() {
