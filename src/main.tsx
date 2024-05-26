@@ -6,8 +6,8 @@ import GlobalStyles from "./styles/global";
 import { Routes } from "./routers";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <GlobalStyles />
-    <Routes />
-  </React.StrictMode>,
+    <React.StrictMode>
+        <GlobalStyles />
+        <Routes />
+    </React.StrictMode>,
 );
