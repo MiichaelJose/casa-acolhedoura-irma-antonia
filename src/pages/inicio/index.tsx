@@ -4,13 +4,14 @@ import Header from "../../components/cabecalho";
 import Button from "../../components/botao";
 import Footer from "../../components/rodape";
 
-import imagemEquipe from "/equipe.jpg";
+import imagemEquipe from "/galery/equipe.jpg";
+import iconeCasaMao from "/galery/casa-mao.png";
+
 import iconeBandeira from "/flag-solid.svg";
 import iconeMao from "/hands-holding-child-solid.svg";
 import iconeCasa from "/house-solid.svg";
 import iconeCompasso from "/compass-solid.svg";
 import iconeMaoMed from "/hand-holding-medical-solid.svg";
-import iconeCasaMao from "/casa-mao.png";
 
 export default function Inicio() {
     return (
@@ -126,12 +127,12 @@ export default function Inicio() {
                 <h2>Galeria de fotos</h2>
 
                 <div className="galeria">
-                    <img src={"/g1.jpg"} alt="" />
-                    <img src={"/g2.jpg"} alt="" />
-                    <img src={"/g5.jpg"} alt="" />
-                    <img src={"/g4.jpg"} alt="" />
-                    <img src={"/g6.jpeg"} alt="" />
-                    <img src={"/g7.jpeg"} alt="" />
+                    <img src={"/galery/g1.jpg"} alt="" />
+                    <img src={"/galery/g2.jpg"} alt="" />
+                    <img src={"/galery/g5.jpg"} alt="" />
+                    <img src={"/galery/g4.jpg"} alt="" />
+                    <img src={"/galery/g6.jpeg"} alt="" />
+                    <img src={"/galery/g7.jpeg"} alt="" />
                 </div>
             </Article>
             <Footer />

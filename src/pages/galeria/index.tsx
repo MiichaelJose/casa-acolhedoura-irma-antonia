@@ -12,12 +12,12 @@ export default function Galery() {
                 <h2>Galeria de fotos</h2>
 
                 <div className="galeria">
-                    <img src={"/g1.jpg"} alt="" />
-                    <img src={"/g2.jpg"} alt="" />
-                    <img src={"/g5.jpg"} alt="" />
-                    <img src={"/g4.jpg"} alt="" />
-                    <img src={"/g6.jpeg"} alt="" />
-                    <img src={"/g7.jpeg"} alt="" />
+                    <img src={"/galery/g1.jpg"} alt="" />
+                    <img src={"/galery/g2.jpg"} alt="" />
+                    <img src={"/galery/g5.jpg"} alt="" />
+                    <img src={"/galery/g4.jpg"} alt="" />
+                    <img src={"/galery/g6.jpeg"} alt="" />
+                    <img src={"/galery/g7.jpeg"} alt="" />
                 </div>
 
                 <div className="botoes">

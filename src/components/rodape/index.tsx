@@ -29,16 +29,16 @@ export default function Footer() {
                             alt="whatsapp"
                             className="icon"
                         />
-                        <img
+                        <a href="https://www.instagram.com/casairmaantonia/"><img
                             src={iconeInstagram}
                             alt="instagram"
                             className="icon"
-                        />
-                        <img
+                        /></a>
+                        <a href="https://pt-br.facebook.com/casairmaantonia/"><img
                             src={iconeFacebook}
                             alt="facebook"
                             className="icon"
-                        />
+                        /></a>
                     </div>
                 </div>
 

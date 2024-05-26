@@ -7,10 +7,15 @@ export default createGlobalStyle`
         box-sizing: border-box;
     }
 
-    h2, h3 {
+    h2 {
         font-family: "Montserrat", sans-serif;
         font-style: normal;
         color: #8B0000;
+    }
+
+    h3, h4 {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
     }
 
     p {
