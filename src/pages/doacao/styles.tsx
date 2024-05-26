@@ -3,13 +3,14 @@ import styled from "styled-components";
 export const Main = styled.div`
     text-align: center;
 
-    > h2, h3 {
+    > h2,
+    h3 {
         margin-top: 2rem;
     }
 
     .subtitle {
         > p {
-            margin-top:1rem;
+            margin-top: 1rem;
         }
     }
 
@@ -18,14 +19,15 @@ export const Main = styled.div`
         flex-direction: column;
         justify-content: space-around;
         margin-top: 2rem;
-        background-color: #FFFFCC;
+        background-color: #ffffcc;
 
         img {
             height: 48px;
         }
 
-        p, h4 {
-            margin-top:1rem;
+        p,
+        h4 {
+            margin-top: 1rem;
         }
 
         > div {

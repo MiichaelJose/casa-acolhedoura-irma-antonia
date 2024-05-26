@@ -22,13 +22,27 @@ export default function Header() {
                 </div>
 
                 <div className="links-rede-social">
-                    <a><img src={iconeWhatsapp} alt="whatsapp" className="icon" /></a>
-                    <a href="https://www.instagram.com/casairmaantonia/"><img
-                        src={iconeInstagram}
-                        alt="instagram"
-                        className="icon"
-                    /></a>
-                    <a href="https://pt-br.facebook.com/casairmaantonia/"><img src={iconeFacebook} alt="facebook" className="icon" /></a>
+                    <a>
+                        <img
+                            src={iconeWhatsapp}
+                            alt="whatsapp"
+                            className="icon"
+                        />
+                    </a>
+                    <a href="https://www.instagram.com/casairmaantonia/">
+                        <img
+                            src={iconeInstagram}
+                            alt="instagram"
+                            className="icon"
+                        />
+                    </a>
+                    <a href="https://pt-br.facebook.com/casairmaantonia/">
+                        <img
+                            src={iconeFacebook}
+                            alt="facebook"
+                            className="icon"
+                        />
+                    </a>
                 </div>
 
                 <img src={iconeBarra} alt="icone-barra" className="barra" />
