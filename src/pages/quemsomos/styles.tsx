@@ -3,12 +3,10 @@ import styled from "styled-components";
 export const Main = styled.main`
     h2 {
         text-align: center;
-        margin-top: 2rem;
     }
 
     > p {
         margin-top: 2rem;
-        line-height: 1.5rem;
     }
 
     > div {
@@ -20,10 +18,6 @@ export const Main = styled.main`
     .secao-valores-acoes {
         display: flex;
         flex-direction: column;
-
-        h3 {
-            margin-top: 1rem;
-        }
 
         div {
             width: 100%;
@@ -48,9 +42,6 @@ export const Main = styled.main`
             margin-top: 2rem;
         }
 
-        h3 {
-            margin-top: 2rem;
-        }
         > img {
             width: 100%;
             margin-top: 2rem;

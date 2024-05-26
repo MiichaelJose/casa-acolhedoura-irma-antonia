@@ -21,10 +21,10 @@ export default function Galery() {
                 </div>
 
                 <div className="botoes">
-                    <Button link="1" color={"#98FB98"}>
+                    <Button link="/doacao" color={"#98FB98"}>
                         FAÇA UMA DOAÇÃO
                     </Button>
-                    <Button link="1" color={"#FFFFCC"}>
+                    <Button link="/doacao" color={"#FFFFCC"}>
                         SEJA VOLUNTÁRIO
                     </Button>
                 </div>

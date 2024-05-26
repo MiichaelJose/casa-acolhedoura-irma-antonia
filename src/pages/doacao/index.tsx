@@ -17,7 +17,7 @@ export default function Donation() {
                     <p>
                         Você pode doar alimentos, roupas e materiais de higiene!
                         O ponto de entrega é no
-                        <br />  R. Mal. Floriano Peixoto, 443 - Jardim Berlim,
+                        <br /> R. Mal. Floriano Peixoto, 443 - Jardim Berlim,
                         Jaguariúna - SP, 13820-000
                     </p>
                 </div>

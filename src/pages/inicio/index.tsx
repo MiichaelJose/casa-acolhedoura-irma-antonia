@@ -19,9 +19,9 @@ export default function Inicio() {
             <Header />
             <Main className="secao-padrao">
                 <div className="introducao-sobre">
-                    <h2>
+                    <h1>
                         Casa Acolhedora <br /> Irmã Antônia
-                    </h2>
+                    </h1>
 
                     <p>
                         Organização localizada na cidade de Jaguariúna dedicada
@@ -31,10 +31,10 @@ export default function Inicio() {
                     </p>
 
                     <div>
-                        <Button link="1" color={"#ADD8E6"}>
+                        <Button link="/quem-somos" color={"#ADD8E6"}>
                             QUEM SOMOS?
                         </Button>
-                        <Button link="2" color={"#98FB98"}>
+                        <Button link="/doacao" color={"#98FB98"}>
                             FAÇA UMA DOAÇÃO
                         </Button>
                     </div>
@@ -100,10 +100,10 @@ export default function Inicio() {
                         </div>
 
                         <div className="botoes">
-                            <Button link="1" color={"#98FB98"}>
+                            <Button link="/doacao" color={"#98FB98"}>
                                 FAÇA UMA DOAÇÃO
                             </Button>
-                            <Button link="1" color={"#FFFFCC"}>
+                            <Button link="/doacao" color={"#FFFFCC"}>
                                 SEJA VOLUNTÁRIO
                             </Button>
                         </div>

@@ -6,16 +6,26 @@ export default createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
+    
+    h1 {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        color: #8B0000;
+        font-size: 1.7rem;
+    }
 
     h2 {
         font-family: "Montserrat", sans-serif;
         font-style: normal;
         color: #8B0000;
+        font-size: 1.5rem;
+        margin-top: 2rem;
     }
 
     h3, h4 {
         font-family: "Montserrat", sans-serif;
         font-style: normal;
+        margin-top: 1rem;
     }
 
     p {
@@ -23,6 +33,7 @@ export default createGlobalStyle`
         font-weight: 400;
         font-style: normal;
         font-size: 0.9rem;
+        line-height: 1.5rem;
     }
 
     a {

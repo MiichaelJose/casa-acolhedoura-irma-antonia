@@ -7,7 +7,6 @@ export const Main = styled.div`
 
     > h2 {
         text-align: center;
-        margin-top: 2rem;
     }
 
     .galeria {

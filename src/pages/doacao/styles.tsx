@@ -3,11 +3,6 @@ import styled from "styled-components";
 export const Main = styled.div`
     text-align: center;
 
-    > h2,
-    h3 {
-        margin-top: 2rem;
-    }
-
     .subtitle {
         > p {
             margin-top: 1rem;

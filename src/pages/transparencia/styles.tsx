@@ -43,7 +43,6 @@ export const Main = styled.main`
 
             > p {
                 margin: 5px 0;
-                font-weight: bold;
             }
         }
         > button {

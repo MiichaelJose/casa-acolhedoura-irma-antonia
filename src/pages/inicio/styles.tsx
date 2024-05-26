@@ -17,7 +17,6 @@ export const Main = styled.main`
 
         > p {
             margin-top: 2rem;
-            font-weight: bold;
             line-height: 1.5rem;
         }
 
