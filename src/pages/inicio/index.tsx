@@ -104,7 +104,7 @@ export default function Inicio() {
                                 FAÇA UMA DOAÇÃO
                             </Button>
                             <Button link="1" color={"#FFFFCC"}>
-                                SEJA VOLUNTÁRIOo
+                                SEJA VOLUNTÁRIO
                             </Button>
                         </div>
                     </div>
