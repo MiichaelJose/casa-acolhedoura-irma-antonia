@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Main = styled.main`
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
     align-items: center;
 
     h2 {
@@ -31,7 +31,6 @@ export const Main = styled.main`
             padding-bottom: 1rem;
             border-bottom: 1px solid lightslategray;
         }
-        
     }
 
     .area-cards {
@@ -62,7 +61,7 @@ export const Main = styled.main`
         border: 2px solid lightgrey;
         text-align: center;
         border-radius: 0.5rem;
-        
+
         div {
             width: 100%;
             border-bottom: 2px solid lightgray;
@@ -73,7 +72,7 @@ export const Main = styled.main`
         > button {
             height: 30px;
             width: 100%;
-            background-color: #8B0000;
+            background-color: #8b0000;
             color: white;
         }
     }

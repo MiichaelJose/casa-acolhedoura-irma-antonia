@@ -4,6 +4,7 @@ import Header from "../../components/cabecalho";
 
 import iconFilter from "/arrow-down-wide-short-solid.svg";
 import iconDocument from "/file-lines-regular.svg";
+import Footer from "../../components/rodape";
 
 export default function Transparency() {
     return (
@@ -11,7 +12,7 @@ export default function Transparency() {
             <Header />
             <Main className="secao-padrao">
                 <h2>TRANSPARÊNCIA</h2>
-                
+
                 <section>
                     <div className="filtro">
                         <button>
@@ -28,13 +29,18 @@ export default function Transparency() {
                                     <p>Transparência</p>
                                 </div>
                                 <p>DIA 26/05</p>
-                                <img src={iconDocument} alt="" className="icon" />
+                                <img
+                                    src={iconDocument}
+                                    alt=""
+                                    className="icon"
+                                />
 
                                 <button>VISUALIZAR</button>
                             </div>
                         </div>
                     </div>
-s                </section>
+                    s{" "}
+                </section>
                 <div className="main-content">
                     <h3>PRINCIPAL</h3>
                     <div className="card">
@@ -64,6 +70,7 @@ s                </section>
                     </div>
                 </div>
             </Main>
+            <Footer />
         </>
     );
 }
