@@ -70,8 +70,8 @@ export const Modal = styled.div`
     }
 
     @media screen and (min-width: 768px) {
-       display: none;
-       visibility: hidden;
+        display: none;
+        visibility: hidden;
     }
 `;
 

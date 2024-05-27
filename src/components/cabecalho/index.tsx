@@ -9,7 +9,7 @@ import iconeInstagram from "/instagram.png";
 import { useState } from "react";
 
 export default function Header() {
-    const [useModal, setModal] = useState(false)
+    const [useModal, setModal] = useState(false);
 
     const modal = () => {
         return (
@@ -19,56 +19,61 @@ export default function Header() {
                 <Link to={"/transparencia"}>Transparencia</Link>
                 <Link to={"/doacao"}>Doação</Link>
             </Modal>
-        )
-    }
+        );
+    };
 
     return (
         <>
-        <Main>
-            <nav>
-                <Link to={"/"}>
-                    <img src={iconeLogo} alt="icone-logo" className="logo" />
-                </Link>
-
-                <div className="links-cabecalho">
-                    <Link to={"/quem-somos"}>Quem Somos</Link>
-                    <Link to={"/galeria"}>Galeria</Link>
-                    <Link to={"/transparencia"}>Transparência</Link>
-                    <Link to={"/doacao"}>Doação</Link>
-                </div>
-
-                <div className="links-rede-social">
-                    <a>
+            <Main>
+                <nav>
+                    <Link to={"/"}>
                         <img
-                            src={iconeWhatsapp}
-                            alt="whatsapp"
-                            className="icon"
+                            src={iconeLogo}
+                            alt="icone-logo"
+                            className="logo"
                         />
-                    </a>
-                    <a href="https://www.instagram.com/casairmaantonia/">
-                        <img
-                            src={iconeInstagram}
-                            alt="instagram"
-                            className="icon"
-                        />
-                    </a>
-                    <a href="https://pt-br.facebook.com/casairmaantonia/">
-                        <img
-                            src={iconeFacebook}
-                            alt="facebook"
-                            className="icon"
-                        />
-                    </a>
-                </div>
+                    </Link>
 
-                <img src={ useModal ? iconeClose : iconeBarra } alt="icone-barra" className="barra" onClick={() => setModal(!useModal)}/>
-            </nav>
-        </Main>
-        {
-            useModal ? modal() : <></>
-        }
-        
+                    <div className="links-cabecalho">
+                        <Link to={"/quem-somos"}>Quem Somos</Link>
+                        <Link to={"/galeria"}>Galeria</Link>
+                        <Link to={"/transparencia"}>Transparência</Link>
+                        <Link to={"/doacao"}>Doação</Link>
+                    </div>
 
+                    <div className="links-rede-social">
+                        <a>
+                            <img
+                                src={iconeWhatsapp}
+                                alt="whatsapp"
+                                className="icon"
+                            />
+                        </a>
+                        <a href="https://www.instagram.com/casairmaantonia/">
+                            <img
+                                src={iconeInstagram}
+                                alt="instagram"
+                                className="icon"
+                            />
+                        </a>
+                        <a href="https://pt-br.facebook.com/casairmaantonia/">
+                            <img
+                                src={iconeFacebook}
+                                alt="facebook"
+                                className="icon"
+                            />
+                        </a>
+                    </div>
+
+                    <img
+                        src={useModal ? iconeClose : iconeBarra}
+                        alt="icone-barra"
+                        className="barra"
+                        onClick={() => setModal(!useModal)}
+                    />
+                </nav>
+            </Main>
+            {useModal ? modal() : <></>}
         </>
     );
 }
