@@ -11,26 +11,58 @@ export default function Transparency() {
             <Header />
             <Main className="secao-padrao">
                 <h2>TRANSPARÊNCIA</h2>
-                <div className="filtro">
-                    <button>
-                        <img src={iconFilter} alt="" className="icon" />
-                        <span>FILTRAR</span>
-                    </button>
-                </div>
+                
                 <section>
+                    <div className="filtro">
+                        <button>
+                            <img src={iconFilter} alt="" className="icon" />
+                            <span>FILTRAR</span>
+                        </button>
+                    </div>
+                    <h3>DOCUMENTOS ANO 2024</h3>
+                    <div className="area-cards">
+                        <h4>MAIO</h4>
+                        <div className="grid-card">
+                            <div className="card">
+                                <div>
+                                    <p>Transparência</p>
+                                </div>
+                                <p>DIA 26/05</p>
+                                <img src={iconDocument} alt="" className="icon" />
+
+                                <button>VISUALIZAR</button>
+                            </div>
+                        </div>
+                    </div>
+s                </section>
+                <div className="main-content">
+                    <h3>PRINCIPAL</h3>
                     <div className="card">
                         <div>
-                            <p>ATA CASA</p>
+                            <p>ATA</p>
                         </div>
-                        <p>MAI 2024</p>
+
                         <img src={iconDocument} alt="" className="icon" />
 
-                        <button>DOWNLOAD</button>
+                        <button>VISUALIZAR</button>
                     </div>
-                    <div className="card"></div>
-                    <div className="card"></div>
-                    <div className="card"></div>
-                </section>
+                    <div className="card">
+                        <div>
+                            <p>PROJETO</p>
+                        </div>
+                        <img src={iconDocument} alt="" className="icon" />
+
+                        <button>VISUALIZAR</button>
+                    </div>
+                    <div className="card">
+                        <div>
+                            <p>ESTATUTO</p>
+                        </div>
+                        <img src={iconDocument} alt="" className="icon" />
+
+                        <button>VISUALIZAR</button>
+                    </div>
+                </div>
             </Main>
         </>
     );
