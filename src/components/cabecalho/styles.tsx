@@ -53,6 +53,28 @@ export const Main = styled.header`
     }
 `;
 
+export const Modal = styled.div`
+    width: 320px;
+    height: 300px;
+    right: 0;
+    border-bottom: 3px solid lightgray;
+    position: absolute;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    a {
+        font-weight: bold;
+    }
+
+    @media screen and (min-width: 768px) {
+       display: none;
+       visibility: hidden;
+    }
+`;
+
 export const Link = styled(link)`
     font-weight: 400;
 `;

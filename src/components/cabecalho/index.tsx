@@ -1,13 +1,29 @@
-import { Main, Link } from "./styles";
+import { Main, Link, Modal } from "./styles";
 
 import iconeLogo from "/casa.png";
 import iconeBarra from "/bars-solid.svg";
+import iconeClose from "/xmark-solid.svg";
 import iconeWhatsapp from "/whatsapp.png";
 import iconeFacebook from "/facebook.png";
 import iconeInstagram from "/instagram.png";
+import { useState } from "react";
 
 export default function Header() {
+    const [useModal, setModal] = useState(false)
+
+    const modal = () => {
+        return (
+            <Modal>
+                <Link to={"/quem-somos"}>Quem Somos</Link>
+                <Link to={"/galeria"}>Galeria</Link>
+                <Link to={"/transparencia"}>Transparencia</Link>
+                <Link to={"/doacao"}>Doação</Link>
+            </Modal>
+        )
+    }
+
     return (
+        <>
         <Main>
             <nav>
                 <Link to={"/"}>
@@ -45,8 +61,14 @@ export default function Header() {
                     </a>
                 </div>
 
-                <img src={iconeBarra} alt="icone-barra" className="barra" />
+                <img src={ useModal ? iconeClose : iconeBarra } alt="icone-barra" className="barra" onClick={() => setModal(!useModal)}/>
             </nav>
         </Main>
+        {
+            useModal ? modal() : <></>
+        }
+        
+
+        </>
     );
 }
