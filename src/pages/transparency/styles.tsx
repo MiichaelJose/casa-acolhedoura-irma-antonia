@@ -31,6 +31,7 @@ export const Main = styled.main`
         position: absolute;
         background-color: white;
         box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+        display: none;
     }
 
     section {
