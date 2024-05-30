@@ -8,7 +8,12 @@ interface ButtonProps {
 
 export default function Button({ children, color, link }: ButtonProps) {
     return (
-        <Link to={link} backgroundcolor={color} className={"btn"}>
+        <Link
+            to={link}
+            backgroundcolor={color}
+            reloadDocument
+            className={"btn"}
+        >
             {children}
         </Link>
     );

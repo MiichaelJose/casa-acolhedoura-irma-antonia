@@ -1,10 +1,10 @@
 import { Main } from "./styles";
 
-import Header from "../../components/cabecalho";
+import Header from "../../components/header";
 
 import iconFilter from "/arrow-down-wide-short-solid.svg";
 import iconDocument from "/file-lines-regular.svg";
-import Footer from "../../components/rodape";
+import Footer from "../../components/footer";
 
 export default function Transparency() {
     return (

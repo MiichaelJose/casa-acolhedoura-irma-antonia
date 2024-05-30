@@ -6,6 +6,7 @@ import iconeClose from "/xmark-solid.svg";
 import iconeWhatsapp from "/whatsapp.png";
 import iconeFacebook from "/facebook.png";
 import iconeInstagram from "/instagram.png";
+
 import { useState } from "react";
 
 export default function Header() {
@@ -42,7 +43,7 @@ export default function Header() {
                     </div>
 
                     <div className="links-rede-social">
-                        <a>
+                        <a href="https://wa.me/551921410082">
                             <img
                                 src={iconeWhatsapp}
                                 alt="whatsapp"

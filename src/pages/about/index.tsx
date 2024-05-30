@@ -1,10 +1,11 @@
 import { Main } from "./styles";
 
-import Header from "../../components/cabecalho";
-import Footer from "../../components/rodape";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
+import Button from "../../components/button";
+
 import iconeMao from "/hand-holding-medical-solid.svg";
 import iconeCasaMao from "/galery/casa-mao.png";
-import Button from "../../components/botao";
 
 export default function About() {
     return (

@@ -1,9 +1,9 @@
-import Header from "../../components/cabecalho";
+import Header from "../../components/header";
 
 import { Main } from "./styles";
 
 import iconPix from "/icons8-foto.svg";
-import iconBanco from "/banco.png";
+import iconBanco from "/sicredi-logo.png";
 
 export default function Donation() {
     return (
@@ -27,19 +27,20 @@ export default function Donation() {
                         <img src={iconBanco} alt="iconbanco" className="" />
                         <h4>BANCO</h4>
                         <p>
-                            utilize o contato do banco para
+                            utilize a conta do banco para
                             <br />
                             fazer uma doação
                         </p>
-                        <p>conta-corrente: 24214224</p>
-                        <p>agencia: 24214224</p>
+                        <p>conta-corrente: 24524-0</p>
+                        <p>agencia: 3027</p>
                     </div>
 
                     <div>
                         <img src={iconPix} alt="iconpix" />
                         <h4>PIX</h4>
                         <p>utilize o pix para fazer uma doação</p>
-                        <p>chave: 032.294.514-04</p>
+                        <p>CNPJ</p>
+                        <p>chave: 40.110.156/0001-40</p>
                     </div>
                 </div>
             </Main>

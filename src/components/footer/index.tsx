@@ -9,13 +9,15 @@ export default function Footer() {
     return (
         <Main>
             <div>
-                <Link to={"/quem-somos"} relative="path">
+                <Link to={"/quem-somos"} reloadDocument>
                     Quem Somos
                 </Link>
-                <Link to={"/galeria"}>Galeria</Link>
+                <Link to={"/galeria"} reloadDocument>
+                    Galeria
+                </Link>
 
                 <div className="links-rede-social">
-                    <Link to={"/"}>
+                    <Link to={"/"} reloadDocument>
                         <img
                             src={iconeLogo}
                             alt="icone-logo"
@@ -24,11 +26,13 @@ export default function Footer() {
                     </Link>
 
                     <div>
-                        <img
-                            src={iconeWhatsapp}
-                            alt="whatsapp"
-                            className="icon"
-                        />
+                        <a href="https://wa.me/551921410082">
+                            <img
+                                src={iconeWhatsapp}
+                                alt="whatsapp"
+                                className="icon"
+                            />
+                        </a>
                         <a href="https://www.instagram.com/casairmaantonia/">
                             <img
                                 src={iconeInstagram}
@@ -46,10 +50,12 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <Link to={"/transparencia"} preventScrollReset={true}>
+                <Link to={"/transparencia"} reloadDocument>
                     Transparência
                 </Link>
-                <Link to={"/doacao"}>Doação</Link>
+                <Link to={"/doacao"} reloadDocument>
+                    Doação
+                </Link>
             </div>
         </Main>
     );

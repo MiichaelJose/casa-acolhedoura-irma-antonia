@@ -1,8 +1,8 @@
-import Header from "../../components/cabecalho";
-import Button from "../../components/botao";
+import Header from "../../components/header";
+import Button from "../../components/button";
+import Footer from "../../components/footer";
 
 import { Main } from "./styles";
-import Footer from "../../components/rodape";
 
 export default function Galery() {
     return (

@@ -1,8 +1,8 @@
 import { Main, Section, Article } from "./styles";
 
-import Header from "../../components/cabecalho";
-import Button from "../../components/botao";
-import Footer from "../../components/rodape";
+import Header from "../../components/header";
+import Button from "../../components/button";
+import Footer from "../../components/footer";
 
 import imagemEquipe from "/galery/equipe.jpg";
 import iconeCasaMao from "/galery/casa-mao.png";
