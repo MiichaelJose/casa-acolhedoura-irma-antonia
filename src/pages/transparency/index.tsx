@@ -38,7 +38,7 @@ export default function Transparency() {
                                     className="icon"
                                 />
 
-                                <a href="https://drive.google.com/file/d/1wvShCUkPNaIhBN8ZEx2rKXzjW4gmi9LY/view?usp=drive_link"><button>VISUALIZAR</button></a>
+                                <a href="https://drive.google.com/file/d/1ewKacaqyYnKlL2NPnxFvqrZZ1hn_WEnt/view?usp=drive_link"><button>VISUALIZAR</button></a>
                             </div>
                         </div>
                     </div>
