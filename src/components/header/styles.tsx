@@ -56,6 +56,7 @@ export const Main = styled.header`
 export const Modal = styled.div`
     width: 320px;
     height: 300px;
+    z-index: 1;
     right: 0;
     border-bottom: 3px solid lightgray;
     position: absolute;
@@ -65,6 +66,7 @@ export const Modal = styled.div`
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    
     a {
         font-weight: bold;
     }

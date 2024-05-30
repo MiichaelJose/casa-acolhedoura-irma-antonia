@@ -11,19 +11,30 @@ export const Main = styled.main`
     }
 
     .filtro {
-        width: 100%;
+        width: fit-content;
         display: flex;
+        flex-direction: column;
         align-items: center;
-        margin-top: 5px;
+        margin-left: auto;
         button {
             display: flex;
             align-items: center;
             background-color: white;
-            margin-left: auto;
         }
     }
 
+    .filter-modal {
+        height: 200px;
+        width: 170px;
+        right: 25px;
+        border-radius: 5px 0px 5px 5px;
+        position: absolute;
+        background-color: white;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    }
+
     section {
+        position: relative;
         width: 100%;
         margin-top: 1rem;
         > h3 {
@@ -69,7 +80,10 @@ export const Main = styled.main`
                 margin: 5px 0;
             }
         }
-        > button {
+        a {
+            width: 100%;
+        }
+        button {
             height: 30px;
             width: 100%;
             background-color: #8b0000;

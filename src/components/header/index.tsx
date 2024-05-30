@@ -17,7 +17,7 @@ export default function Header() {
             <Modal>
                 <Link to={"/quem-somos"}>Quem Somos</Link>
                 <Link to={"/galeria"}>Galeria</Link>
-                <Link to={"/transparencia"}>Transparencia</Link>
+                <Link to={"/transparencia"}>Transparência</Link>
                 <Link to={"/doacao"}>Doação</Link>
             </Modal>
         );
