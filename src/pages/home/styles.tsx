@@ -2,9 +2,48 @@ import styled from "styled-components";
 
 export const Main = styled.main`
     display: flex;
+    width: 100%;
+    height: 86vh;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    background-image: url("/galery/equipe.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    > div.filter {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.75);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        > h1 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #ffffcc;
+            text-align: center;
+            letter-spacing: 0.2rem;
+        }
+        > p {
+            text-align: center;
+            width: 300px;
+            color: white;
+            margin-inline: auto;
+        }
+        > h4 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #ffffcc;
+            text-align: center;
+            font-size: 1.7rem;
+        }
+    }
 
     .introducao-sobre {
         width: 100%;
@@ -51,7 +90,7 @@ export const Main = styled.main`
             height: 75px;
             margin-top: 5px;
             border-radius: 5px;
-            background-image: url("/y-so-serious-white.png");
+
             box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 
             > div {

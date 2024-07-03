@@ -17,52 +17,18 @@ export default function Inicio() {
     return (
         <>
             <Header />
-            <Main className="secao-padrao">
-                <div className="introducao-sobre">
+            <Main>
+                <div className="filter">
                     <h1>
-                        Casa Acolhedora <br /> Irmã Antônia
+                        Casa acolhedora <br /> irmã Antônia
                     </h1>
-
                     <p>
                         Organização localizada na cidade de Jaguariúna dedicada
                         a oferecer atendimento e acolhimento para homens,
                         mulheres e famílias que se encontram em situação de
                         vulnerabilidade social ou risco.
                     </p>
-
-                    <div>
-                        <Button link="/quem-somos" color={"#ADD8E6"}>
-                            QUEM SOMOS?
-                        </Button>
-                        <Button link="/doacao" color={"#98FB98"}>
-                            FAÇA UMA DOAÇÃO
-                        </Button>
-                    </div>
-                </div>
-
-                <div className="imagem-valores">
-                    <img src={imagemEquipe} alt="" />
-
-                    <section>
-                        <div>
-                            <img src={iconeBandeira} alt="" />
-                            <span>
-                                NOSSOS <br /> VALORES
-                            </span>
-                        </div>
-                        <div>
-                            <img src={iconeMao} alt="" />
-                            <span>
-                                COMO <br /> AJUDAR
-                            </span>
-                        </div>
-                        <div>
-                            <img src={iconeBandeira} alt="" />
-                            <span>
-                                NOSSAS <br /> AÇÕES
-                            </span>
-                        </div>
-                    </section>
+                    <h4>Conheça a orgânização</h4>
                 </div>
             </Main>
             <Section>

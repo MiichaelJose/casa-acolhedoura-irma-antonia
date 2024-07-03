@@ -10,8 +10,7 @@ export default createGlobalStyle`
     h1 {
         font-family: "Montserrat", sans-serif;
         font-style: normal;
-        color: #8B0000;
-        font-size: 1.7rem;
+        font-size: 2.67rem;
     }
 
     h2 {
