@@ -9,7 +9,11 @@ import iconeInstagram from "/instagram.png";
 
 import { useState } from "react";
 
-export default function Header() {
+type HeaderType = {
+    width?: string;
+};
+
+export default function Header({ width = "100%" }: HeaderType) {
     const [useModal, setModal] = useState(false);
 
     const modal = () => {
@@ -25,7 +29,7 @@ export default function Header() {
 
     return (
         <>
-            <Main>
+            <Main width={width}>
                 <nav>
                     <Link to={"/"}>
                         <img

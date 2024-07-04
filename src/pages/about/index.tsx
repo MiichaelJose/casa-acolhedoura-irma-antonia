@@ -12,7 +12,7 @@ export default function About() {
         <>
             <Header />
             <Main className="secao-padrao">
-                <h2>QUEM SOMOS</h2>
+                <h2 className="h2_title_red">QUEM SOMOS</h2>
                 <p>
                     Somos uma organização em Jaguariúna que oferece abrigo e
                     apoio imediato para pessoas em situação de rua. Nossa

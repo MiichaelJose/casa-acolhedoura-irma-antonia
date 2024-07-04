@@ -10,7 +10,7 @@ export default function Donation() {
         <>
             <Header />
             <Main className="secao-padrao">
-                <h2>FAÇA UMA DOAÇÃO</h2>
+                <h2 className="h2_title_red">FAÇA UMA DOAÇÃO</h2>
                 <div className="subtitle">
                     <h3>AJUDE COM QUALQUER QUANTIA</h3>
 
