@@ -2,12 +2,21 @@ import styled from "styled-components";
 
 import { Link as link } from "react-router-dom";
 
-export const Main = styled.header`
+type HeaderType = {
+    width: string;
+};
+
+export const Main = styled.header<HeaderType>`
+    width: 100%;
+    max-width: ${(props) => props.width};
     height: 14vh;
     display: flex;
+    margin-inline: auto;
     align-items: center;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     padding-inline: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
     > nav {
         width: 100%;
@@ -66,7 +75,7 @@ export const Modal = styled.div`
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    
+
     a {
         font-weight: bold;
     }

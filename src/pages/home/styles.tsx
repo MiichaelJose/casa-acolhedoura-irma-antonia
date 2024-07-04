@@ -2,214 +2,177 @@ import styled from "styled-components";
 
 export const Main = styled.main`
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    height: 100vh;
 
-    .introducao-sobre {
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/galery/equipe.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    > .filter {
+        height: 100%;
         width: 100%;
-        max-width: 500px;
-        height: 400px;
+        background-color: rgba(0, 0, 0, 0.75);
         display: flex;
         flex-direction: column;
-        text-align: center;
-        justify-content: center;
+        justify-content: space-between;
 
         > p {
-            margin-top: 2rem;
-            line-height: 1.5rem;
-        }
-
-        > div {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
+            text-align: center;
+            width: 300px;
+            color: white;
+            margin-inline: auto;
         }
     }
 
-    .imagem-valores {
-        width: 100%;
-        max-width: 500px;
-        height: 100%;
-        max-height: 400px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    .h1_title,
+    .h4_subtitle {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #ffffcc;
+        text-align: center;
+    }
 
-        > img {
-            width: 100%;
-            max-width: 400px;
-        }
+    .h1_title {
+        text-align: center;
+        letter-spacing: 0.2rem;
+    }
 
-        > section {
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            width: 100%;
-            max-width: 400px;
-            height: 75px;
-            margin-top: 5px;
-            border-radius: 5px;
-            background-image: url("/y-so-serious-white.png");
-            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-
-            > div {
-                text-align: center;
-            }
-
-            img {
-                height: 30px;
-                display: block;
-                margin-inline: auto;
-            }
-        }
+    .h4_subtitle {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
     }
 
     @media screen and (min-width: 768px) {
-        height: 86vh;
+        height: 100vh;
         flex-direction: row;
-
-        .imagem-valores > img {
-            width: 100%;
-            max-width: 500px;
-        }
-
-        .imagem-valores > section {
-            max-width: 500px;
-        }
     }
 `;
 
 export const Section = styled.section`
-    width: 100%;
-    background-image: url("/y-so-serious-white.png");
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5rem;
-    margin: 2rem auto 0;
-
-    .conteudo {
-        width: 100%;
-        max-width: 1000px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    box-sizing: border-box;
+    h2 {
+        margin-top: 3rem;
+        font-size: 2rem;
+        border-bottom: 4px solid #dcdcdc;
     }
 
-    .compromissos {
-        width: 100%;
-        max-width: 550px;
+    h3 {
+        font-size: 1.5rem;
+    }
 
-        h2 {
-            text-align: left;
-        }
-
-        > p {
+    .article-pilar {
+        > div {
             margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
 
-        .botoes {
-            width: fit-content;
-            margin-inline: auto;
+        > div p {
+            margin-top: 1rem;
+            padding-bottom: 1rem;
         }
 
-        .caixas {
-            height: 300px;
+        > div span {
+            font-size: 0.8rem;
+        }
+
+        .section-img {
             width: 100%;
-            display: grid;
-            place-items: center;
+            height: 200px;
+            object-fit: cover;
+            background-repeat: no-repeat;
+            border-radius: 30px;
+            margin-top: 1rem;
+        }
+    }
+
+    .slide-in {
+        transform: translateX(-5%);
+        animation: slide-in-animation 1s forwards;
+    }
+
+    @keyframes slide-in-animation {
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    .fade-in {
+        opacity: 0;
+        animation: fade-in-animation 7s forwards;
+    }
+
+    @keyframes fade-in-animation {
+        to {
+            opacity: 1;
+        }
+    }
+
+    .swing {
+        animation: swing-animation 2s infinite;
+        transform-origin: 50% 0;
+    }
+
+    @keyframes swing-animation {
+        0% {
+            transform: rotate(0deg);
+        }
+        25% {
+            transform: rotate(15deg);
+        }
+        50% {
+            transform: rotate(-10deg);
+        }
+        75% {
+            transform: rotate(5deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+
+    .pulse {
+        animation: pulse-animation 10s;
+    }
+
+    @keyframes pulse-animation {
+        0% {
+            transform: scale(1);
+            opacity: 0;
+        }
+        50% {
+            transform: scale(1);
+            opacity: 1;
+        }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .article-pilar:nth-child(3) {
+            flex-direction: row-reverse;
+        }
+        .article-pilar {
+            margin-top: 2rem;
+            justify-content: space-between;
+            display: flex;
 
             > div {
-                width: 100%;
-                max-width: 250px;
-                height: 50px;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                background-color: white;
-                border-radius: 0.5rem;
-                padding: 0.5rem;
-                box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+                width: 50%;
             }
 
-            img {
-                width: 22px;
-                height: 22px;
-                margin-right: 0.3rem;
+            .section-img {
+                max-width: 350px;
+                margin-top: 0;
             }
-        }
-    }
-
-    .localizaçao {
-        width: 100%;
-        max-width: 550px;
-        margin-top: 2rem;
-
-        h2 {
-            text-align: right;
-        }
-
-        > p {
-            margin-top: 2rem;
-        }
-
-        > img {
-            width: 100%;
-            margin-top: 2rem;
-        }
-    }
-
-    @media screen and (min-width: 768px) {
-        .caixas {
-            grid-template-columns: 1fr 1fr;
-        }
-
-        .botoes {
-            display: inline-flex;
-            > a {
-                margin-right: 2rem;
-            }
-        }
-
-        .compromissos {
-            margin-right: auto;
-        }
-
-        .localizaçao {
-            margin-left: auto;
-        }
-    }
-`;
-
-export const Article = styled.article`
-    margin: 2rem auto 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    .galeria {
-        width: 100%;
-        display: grid;
-        justify-items: center;
-        grid-template-columns: 1fr;
-        gap: 5px;
-        margin-top: 2rem;
-
-        > img {
-            width: 100%;
-            max-width: 400px;
-            height: 100%;
-        }
-    }
-
-    @media screen and (min-width: 768px) {
-        .galeria {
-            grid-template-columns: 1fr 1fr 1fr;
-            overflow-y: visible;
         }
     }
 `;

@@ -8,24 +8,34 @@ export default createGlobalStyle`
     }
     
     h1 {
-        font-family: "Montserrat", sans-serif;
         font-style: normal;
-        color: #8B0000;
-        font-size: 1.7rem;
+        font-size: 2.67rem;
     }
 
     h2 {
-        font-family: "Montserrat", sans-serif;
         font-style: normal;
-        color: #8B0000;
         font-size: 1.5rem;
+    }
+
+    .h2_bebasneue {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .h2_montserrat {
+        font-family: "Montserrat", sans-serif;
+        color: #8B0000;
         margin-top: 2rem;
     }
 
+    .h3_bebasneue {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+    }
+
     h3, h4 {
-        font-family: "Montserrat", sans-serif;
         font-style: normal;
-        margin-top: 1rem;
     }
 
     p {
@@ -74,7 +84,7 @@ export default createGlobalStyle`
 
     .secao-padrao {
         width: 100%;
-        max-width: 1000px;
+        max-width: 800px;
         padding: 0.5rem;
         margin-inline: auto;
     }

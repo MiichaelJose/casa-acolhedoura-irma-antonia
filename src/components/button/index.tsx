@@ -1,10 +1,10 @@
 import { Link } from "./styles";
 
-interface ButtonProps {
+type ButtonProps = {
     children: string;
     color: string;
     link: string;
-}
+};
 
 export default function Button({ children, color, link }: ButtonProps) {
     return (
