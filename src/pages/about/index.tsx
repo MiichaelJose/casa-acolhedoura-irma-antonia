@@ -12,7 +12,7 @@ export default function About() {
         <>
             <Header />
             <Main className="secao-padrao">
-                <h2 className="h2_title_red">QUEM SOMOS</h2>
+                <h2 className="h2_montserrat">QUEM SOMOS</h2>
                 <p>
                     Somos uma organização em Jaguariúna que oferece abrigo e
                     apoio imediato para pessoas em situação de rua. Nossa
@@ -23,7 +23,9 @@ export default function About() {
 
                 <div>
                     <div className="secao-valores-acoes">
-                        <h3>Nossos Valores e Nossas Ações:</h3>
+                        <h3 className="h3_montserrat">
+                            Nossos Valores e Nossas Ações:
+                        </h3>
                         <div>
                             <div>
                                 <img src={iconeMao} alt="" className="icon" />
@@ -79,7 +81,7 @@ export default function About() {
                     </div>
 
                     <div className="localização">
-                        <h3>Nossa Localização</h3>
+                        <h3 className="h3_montserrat">Nossa Localização</h3>
                         <p>
                             A Casa Irmã Antônia está localizada no endereço:
                             <br />

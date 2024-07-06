@@ -12,6 +12,16 @@ export const Main = styled.main`
     background-position: center;
     background-repeat: no-repeat;
 
+    .h1_title {
+        text-align: center;
+        letter-spacing: 0.2rem;
+    }
+
+    .h4_subtitle {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+
     > .filter {
         height: 100%;
         width: 100%;
@@ -26,25 +36,6 @@ export const Main = styled.main`
             color: white;
             margin-inline: auto;
         }
-    }
-
-    .h1_title,
-    .h4_subtitle {
-        font-family: "Bebas Neue", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        color: #ffffcc;
-        text-align: center;
-    }
-
-    .h1_title {
-        text-align: center;
-        letter-spacing: 0.2rem;
-    }
-
-    .h4_subtitle {
-        font-size: 1.3rem;
-        margin-bottom: 1rem;
     }
 
     @media screen and (min-width: 768px) {

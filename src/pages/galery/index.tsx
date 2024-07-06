@@ -9,7 +9,7 @@ export default function Galery() {
         <>
             <Header />
             <Main className="secao-padrao">
-                <h2 className="h2_title_red">Galeria de fotos</h2>
+                <h2 className="h2_montserrat">GALERIA DE FOTOS</h2>
 
                 <div className="galeria">
                     <img src={"/galery/g1.jpg"} alt="" />

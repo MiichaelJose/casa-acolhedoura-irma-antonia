@@ -4,6 +4,9 @@ export const Main = styled.div`
     text-align: center;
 
     .subtitle {
+        > h3 {
+            margin-top: 1rem;
+        }
         > p {
             margin-top: 1rem;
         }

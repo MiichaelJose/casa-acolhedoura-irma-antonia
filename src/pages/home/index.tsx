@@ -16,7 +16,7 @@ export default function Inicio() {
                 <div className="filter">
                     <Header width="800px" />
 
-                    <h1 className="h1_title typing">
+                    <h1 className="h1_super h1_title">
                         Casa acolhedora <br /> irmã Antônia
                     </h1>
 
