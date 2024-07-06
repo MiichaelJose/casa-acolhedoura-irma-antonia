@@ -67,6 +67,14 @@ export default createGlobalStyle`
         font-family: "Montserrat", sans-serif;
     }
 
+    .h2_montserrat {
+        margin-top: 2rem;
+    }
+
+    .h2_bebasneue {
+        text-align: center;
+    }
+
     .icon {
         width: 25px;
         height: 25px;
