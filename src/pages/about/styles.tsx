@@ -10,7 +10,6 @@ export const Main = styled.main`
     }
 
     > div {
-        background-image: url("/y-so-serious-white.png");
         padding: 1rem;
         margin-top: 1rem;
     }
@@ -36,7 +35,6 @@ export const Main = styled.main`
 
     .localização {
         width: 100%;
-        max-width: 550px;
 
         p {
             margin-top: 2rem;

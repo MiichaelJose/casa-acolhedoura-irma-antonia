@@ -10,9 +10,11 @@ export default function Donation() {
         <>
             <Header />
             <Main className="secao-padrao">
-                <h2 className="h2_title_red">FAÇA UMA DOAÇÃO</h2>
+                <h2 className="h2_montserrat">FAÇA UMA DOAÇÃO</h2>
                 <div className="subtitle">
-                    <h3>AJUDE COM QUALQUER QUANTIA</h3>
+                    <h3 className="h3_montserrat">
+                        AJUDE COM QUALQUER QUANTIA
+                    </h3>
 
                     <p>
                         Você pode doar alimentos, roupas e materiais de higiene!
@@ -25,7 +27,7 @@ export default function Donation() {
                 <div className="donation">
                     <div>
                         <img src={iconBanco} alt="iconbanco" className="" />
-                        <h4>BANCO</h4>
+                        <h4 className="h4_montserrat">BANCO</h4>
                         <p>
                             utilize a conta do banco para
                             <br />
@@ -37,7 +39,7 @@ export default function Donation() {
 
                     <div>
                         <img src={iconPix} alt="iconpix" />
-                        <h4>PIX</h4>
+                        <h4 className="h4_montserrat">PIX</h4>
                         <p>utilize o pix para fazer uma doação</p>
                         <p>CNPJ</p>
                         <p>chave: 40.110.156/0001-40</p>

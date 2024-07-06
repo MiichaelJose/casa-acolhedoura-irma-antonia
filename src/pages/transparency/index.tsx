@@ -11,7 +11,7 @@ export default function Transparency() {
         <>
             <Header />
             <Main className="secao-padrao">
-                <h2>TRANSPARÊNCIA</h2>
+                <h2 className="h2_montserrat">TRANSPARÊNCIA</h2>
 
                 <section>
                     <div className="filtro">
@@ -20,10 +20,8 @@ export default function Transparency() {
                             <span>FILTRAR</span>
                         </button>
                     </div>
-                    <div className="filter-modal">
-                    
-                    </div>
-                    <h3>DOCUMENTOS ANO 2024</h3>
+                    <div className="filter-modal"></div>
+                    <h3 className="h3_montserrat">DOCUMENTOS ANO 2024</h3>
                     <div className="area-cards">
                         <h4>MAIO</h4>
                         <div className="grid-card">
@@ -38,13 +36,15 @@ export default function Transparency() {
                                     className="icon"
                                 />
 
-                                <a href="https://drive.google.com/file/d/1ewKacaqyYnKlL2NPnxFvqrZZ1hn_WEnt/view?usp=drive_link"><button>VISUALIZAR</button></a>
+                                <a href="https://drive.google.com/file/d/1ewKacaqyYnKlL2NPnxFvqrZZ1hn_WEnt/view?usp=drive_link">
+                                    <button>VISUALIZAR</button>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </section>
                 <div className="main-content">
-                    <h3>PRINCIPAL</h3>
+                    <h3 className="h3_montserrat">PRINCIPAL</h3>
                     <div className="card">
                         <div>
                             <p>ATA</p>
@@ -52,7 +52,9 @@ export default function Transparency() {
 
                         <img src={iconDocument} alt="" className="icon" />
 
-                        <a href="https://drive.google.com/file/d/10gqYEK9IHBXiNaH2DI8jjnbDs5ZMiFLb/view?usp=drive_link"><button>VISUALIZAR</button></a>
+                        <a href="https://drive.google.com/file/d/10gqYEK9IHBXiNaH2DI8jjnbDs5ZMiFLb/view?usp=drive_link">
+                            <button>VISUALIZAR</button>
+                        </a>
                     </div>
                     <div className="card">
                         <div>
@@ -60,7 +62,9 @@ export default function Transparency() {
                         </div>
                         <img src={iconDocument} alt="" className="icon" />
 
-                        <a href="https://drive.google.com/file/d/14yu-ruZvkIRPcibegJpxaacRaLE5PJ-L/view?usp=drive_link"><button>VISUALIZAR</button></a>
+                        <a href="https://drive.google.com/file/d/14yu-ruZvkIRPcibegJpxaacRaLE5PJ-L/view?usp=drive_link">
+                            <button>VISUALIZAR</button>
+                        </a>
                     </div>
                     <div className="card">
                         <div>
@@ -68,7 +72,9 @@ export default function Transparency() {
                         </div>
                         <img src={iconDocument} alt="" className="icon" />
 
-                        <a href="https://drive.google.com/file/d/1wvShCUkPNaIhBN8ZEx2rKXzjW4gmi9LY/view?usp=drive_link"><button>VISUALIZAR</button></a>
+                        <a href="https://drive.google.com/file/d/1wvShCUkPNaIhBN8ZEx2rKXzjW4gmi9LY/view?usp=drive_link">
+                            <button>VISUALIZAR</button>
+                        </a>
                     </div>
                 </div>
             </Main>

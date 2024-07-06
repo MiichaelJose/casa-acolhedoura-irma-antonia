@@ -6,10 +6,6 @@ export const Main = styled.main`
     justify-content: space-evenly;
     align-items: center;
 
-    h2 {
-        margin-top: 2rem;
-    }
-
     .filtro {
         width: fit-content;
         display: flex;
