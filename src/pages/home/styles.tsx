@@ -80,6 +80,12 @@ export const Section = styled.section`
 
         > div span {
             font-size: 0.8rem;
+            cursor: pointer;
+        }
+
+        > div span:hover {
+            font-weight: bold;
+            color: #dcdcdc;
         }
 
         .section-img {
@@ -89,6 +95,11 @@ export const Section = styled.section`
             background-repeat: no-repeat;
             border-radius: 30px;
             margin-top: 1rem;
+        }
+
+        .section-img:hover {
+            filter: blur(2px);
+            cursor: pointer;
         }
     }
 
@@ -103,42 +114,8 @@ export const Section = styled.section`
         }
     }
 
-    .fade-in {
-        opacity: 0;
-        animation: fade-in-animation 7s forwards;
-    }
-
-    @keyframes fade-in-animation {
-        to {
-            opacity: 1;
-        }
-    }
-
-    .swing {
-        animation: swing-animation 2s infinite;
-        transform-origin: 50% 0;
-    }
-
-    @keyframes swing-animation {
-        0% {
-            transform: rotate(0deg);
-        }
-        25% {
-            transform: rotate(15deg);
-        }
-        50% {
-            transform: rotate(-10deg);
-        }
-        75% {
-            transform: rotate(5deg);
-        }
-        100% {
-            transform: rotate(0deg);
-        }
-    }
-
     .pulse {
-        animation: pulse-animation 10s;
+        animation: pulse-animation 3s;
     }
 
     @keyframes pulse-animation {
@@ -172,6 +149,78 @@ export const Section = styled.section`
             .section-img {
                 max-width: 350px;
                 margin-top: 0;
+            }
+        }
+    }
+`;
+
+export const Divisor = styled.div`
+    width: 100%;
+    height: 100px;
+    margin-top: 3rem;
+    padding: 3rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000b6;
+
+    h3 {
+        font-size: 1.5rem;
+        color: #ffffcc;
+    }
+`;
+
+export const SectionMissaoValores = styled.section`
+    h2 {
+        margin-top: 3rem;
+        font-size: 2rem;
+        border-bottom: 4px solid #dcdcdc;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    > div {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        > img {
+            height: 500px;
+            display: none;
+        }
+        > div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    .missao-valores {
+        margin-top: 2rem;
+        > p {
+            margin-top: 1rem;
+            padding-bottom: 1rem;
+        }
+    }
+
+    > img {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    @media screen and (min-width: 768px) {
+        .missao-valores {
+            margin-top: 0;
+        }
+        > div {
+            > img {
+                display: block;
+            }
+            > div {
+                width: 70%;
             }
         }
     }
