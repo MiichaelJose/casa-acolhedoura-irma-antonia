@@ -54,10 +54,10 @@ export default function Inicio() {
                             Casa das crianças
                         </h3>
                         <p>
-                            Organização localizada na cidade de Jaguariúna
-                            dedicada a oferecer atendimento e acolhimento para
-                            homens, mulheres e famílias que se encontram em
-                            situação de vulnerabilidade social ou risco.
+                            Casa das Crianças dedicada a oferecer acolhimento a
+                            mães e filhos em situação de vulnerabilidade social,
+                            proporcionando um ambiente seguro e apoio para
+                            superar desafios e construir um futuro melhor.
                         </p>
                         <span>veja sobre</span>
                     </div>
@@ -70,10 +70,10 @@ export default function Inicio() {
                             centro de Tratamento feminino
                         </h3>
                         <p>
-                            Organização localizada na cidade de Jaguariúna
-                            dedicada a oferecer atendimento e acolhimento para
-                            homens, mulheres e famílias que se encontram em
-                            situação de vulnerabilidade social ou risco.
+                            Centro de Tratamento Feminino dedicado a oferecer
+                            atendimento e acolhimento para mulheres em situação
+                            de rua, enfrentando desafios como dependência
+                            química e problemas psicológicos.
                         </p>
                         <span>veja sobre</span>
                     </div>
@@ -125,12 +125,16 @@ export default function Inicio() {
                                 limpeza.
                             </p>
                         </div>
-                        <Button color={"#ffffcc"} link={"/doacao"}>
+                        <Button color={"#ffffcc"} link={"/quem-somos"}>
                             MAIS DETALHES
                         </Button>
                     </div>
                 </div>
-                <img src={imgDoacao} alt="" />
+                <img
+                    src={imgDoacao}
+                    alt="imagem de doação"
+                    onClick={() => (document.location.href = "/doacao")}
+                />
             </SectionMissaoValores>
         </>
     );

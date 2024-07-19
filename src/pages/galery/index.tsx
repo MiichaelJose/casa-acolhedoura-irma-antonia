@@ -20,8 +20,8 @@ export default function Galery() {
                     <img src={"/galery/g7.jpeg"} alt="" />
                 </div>
 
-                <div className="botoes">
-                    <Button link="/doacao" color={"#98FB98"}>
+                <div className="botoes" style={{ display: "none" }}>
+                    <Button link="/doacao" color={"#b4f6b4"}>
                         FAÇA UMA DOAÇÃO
                     </Button>
                     <Button link="/doacao" color={"#FFFFCC"}>

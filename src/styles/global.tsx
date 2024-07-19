@@ -30,7 +30,7 @@ export default createGlobalStyle`
 
     button, .btn {
         font-family: "Montserrat Alternates", sans-serif;
-        font-weight: 700;
+        font-weight: 600;
         border: none;
         text-decoration: none;
         color: black;

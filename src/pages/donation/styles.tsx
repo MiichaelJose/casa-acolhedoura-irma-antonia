@@ -18,6 +18,7 @@ export const Main = styled.div`
         justify-content: space-around;
         margin-top: 2rem;
         background-color: #ffffcc;
+        border-radius: 15px;
 
         img {
             height: 48px;

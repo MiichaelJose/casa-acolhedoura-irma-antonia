@@ -200,6 +200,7 @@ export const SectionMissaoValores = styled.section`
     > img {
         margin-top: 2rem;
         width: 100%;
+        cursor: pointer;
     }
 
     @media screen and (min-width: 768px) {

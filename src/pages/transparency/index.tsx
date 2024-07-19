@@ -45,36 +45,78 @@ export default function Transparency() {
                 </section>
                 <div className="main-content">
                     <h3 className="h3_montserrat">PRINCIPAL</h3>
-                    <div className="card">
-                        <div>
-                            <p>ATA</p>
+                    <div className="principal-content">
+                        <div className="card">
+                            <div>
+                                <p>ATA E ESTATUTO</p>
+                            </div>
+
+                            <img src={iconDocument} alt="" className="icon" />
+
+                            <a href="https://drive.google.com/file/d/10gqYEK9IHBXiNaH2DI8jjnbDs5ZMiFLb/view?usp=drive_link">
+                                <button>VISUALIZAR</button>
+                            </a>
                         </div>
+                        <div className="card">
+                            <div>
+                                <p>PROJETO</p>
+                            </div>
+                            <img src={iconDocument} alt="" className="icon" />
 
-                        <img src={iconDocument} alt="" className="icon" />
-
-                        <a href="https://drive.google.com/file/d/10gqYEK9IHBXiNaH2DI8jjnbDs5ZMiFLb/view?usp=drive_link">
-                            <button>VISUALIZAR</button>
-                        </a>
-                    </div>
-                    <div className="card">
-                        <div>
-                            <p>PROJETO</p>
+                            <a href="https://drive.google.com/file/d/14yu-ruZvkIRPcibegJpxaacRaLE5PJ-L/view?usp=drive_link">
+                                <button>VISUALIZAR</button>
+                            </a>
                         </div>
-                        <img src={iconDocument} alt="" className="icon" />
+                        <div className="card">
+                            <div>
+                                <p>ESTATUTO</p>
+                            </div>
+                            <img src={iconDocument} alt="" className="icon" />
 
-                        <a href="https://drive.google.com/file/d/14yu-ruZvkIRPcibegJpxaacRaLE5PJ-L/view?usp=drive_link">
-                            <button>VISUALIZAR</button>
-                        </a>
-                    </div>
-                    <div className="card">
-                        <div>
-                            <p>ESTATUTO</p>
+                            <a href="https://drive.google.com/file/d/1wvShCUkPNaIhBN8ZEx2rKXzjW4gmi9LY/view?usp=drive_link">
+                                <button>VISUALIZAR</button>
+                            </a>
                         </div>
-                        <img src={iconDocument} alt="" className="icon" />
+                        <div className="card">
+                            <div>
+                                <p>ATA ASSEMBLEIA</p>
+                            </div>
+                            <img src={iconDocument} alt="" className="icon" />
 
-                        <a href="https://drive.google.com/file/d/1wvShCUkPNaIhBN8ZEx2rKXzjW4gmi9LY/view?usp=drive_link">
-                            <button>VISUALIZAR</button>
-                        </a>
+                            <a href="https://drive.google.com/file/d/1ZlbS29IkgejfFPFycHJh69JqRNZ748BR/view">
+                                <button>VISUALIZAR</button>
+                            </a>
+                        </div>
+                        <div className="card">
+                            <div>
+                                <p>ATA ASSEMBLEIA GERAL</p>
+                            </div>
+                            <img src={iconDocument} alt="" className="icon" />
+
+                            <a href="https://drive.google.com/file/d/1lPjvwgRR6adgnRDvEY4i7ScN8UJtKyVE/view">
+                                <button>VISUALIZAR</button>
+                            </a>
+                        </div>
+                        <div className="card">
+                            <div>
+                                <p>REGISTRO DE IMOVEL</p>
+                            </div>
+                            <img src={iconDocument} alt="" className="icon" />
+
+                            <a href="https://drive.google.com/file/d/1TETaoNT0SYC_uDVRtwVV8FskU2EwoLCE/view">
+                                <button>VISUALIZAR</button>
+                            </a>
+                        </div>
+                        <div className="card">
+                            <div>
+                                <p>DECLARAÇÂO DE UTILIZADE PUBLICA</p>
+                            </div>
+                            <img src={iconDocument} alt="" className="icon" />
+
+                            <a href="https://drive.google.com/file/d/18vu5crszhtaiOF7XBQR90IXgeWlShq5M/view">
+                                <button>VISUALIZAR</button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </Main>
