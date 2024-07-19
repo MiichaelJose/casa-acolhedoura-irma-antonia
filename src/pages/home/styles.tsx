@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Main = styled.main`
     display: flex;
     width: 100%;
-    height: 86vh;
+    height: 100vh;
 
     flex-direction: column;
     align-items: center;
@@ -200,6 +200,7 @@ export const SectionMissaoValores = styled.section`
     > img {
         margin-top: 2rem;
         width: 100%;
+        cursor: pointer;
     }
 
     @media screen and (min-width: 768px) {

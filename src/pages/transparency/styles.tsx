@@ -69,6 +69,7 @@ export const Main = styled.main`
         border: 2px solid lightgrey;
         text-align: center;
         border-radius: 0.5rem;
+        justify-self: center;
 
         div {
             width: 100%;
@@ -89,15 +90,22 @@ export const Main = styled.main`
     }
 
     .main-content {
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        width: 100%;
         background-color: #f9f9f9;
         border-radius: #f9f9f9;
         padding: 1rem;
         margin-top: 1rem;
+
+        > .principal-content {
+            width: 100%;
+            display: grid;
+            justify-items: center;
+            align-items: center;
+        }
     }
 
     @media screen and (min-width: 768px) {
@@ -105,8 +113,8 @@ export const Main = styled.main`
             grid-template-columns: 1fr 1fr 1fr 1fr;
         }
 
-        .main-content {
-            flex-direction: row;
+        .main-content > .principal-content {
+            grid-template-columns: 1fr 1fr 1fr;
         }
     }
 `;
