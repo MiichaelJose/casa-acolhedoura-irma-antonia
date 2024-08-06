@@ -21,15 +21,13 @@ export default function Transparency() {
                         </button>
                     </div>
                     <div className="filter-modal"></div>
-                    <h3 className="h3_montserrat">DOCUMENTOS ANO 2024</h3>
                     <div className="area-cards">
-                        <h4>MAIO</h4>
+                        <h3 className="h3_montserrat">PRESTAÇÃO DE CONTAS</h3>
                         <div className="grid-card">
                             <div className="card">
                                 <div>
-                                    <p>Transparência</p>
+                                    <p>RESULTADO DO EXERCÍCIO</p>
                                 </div>
-                                <p>DIA 26/05</p>
                                 <img
                                     src={iconDocument}
                                     alt=""
@@ -40,11 +38,41 @@ export default function Transparency() {
                                     <button>VISUALIZAR</button>
                                 </a>
                             </div>
+
+                            <div className="card">
+                                <div>
+                                    <p>RP 10 SEGUNDO TRIMESTRE 2024</p>
+                                </div>
+                                <img
+                                    src={iconDocument}
+                                    alt=""
+                                    className="icon"
+                                />
+
+                                <a href="https://drive.google.com/file/d/1tWl5ZYbVJWV0zSjAJ-LTBhtGQVZwcXl_/view?usp=sharing">
+                                    <button>VISUALIZAR</button>
+                                </a>
+                            </div>
+
+                            <div className="card">
+                                <div>
+                                    <p>RELATÓRIO FINANCEIRO</p>
+                                </div>
+                                <img
+                                    src={iconDocument}
+                                    alt=""
+                                    className="icon"
+                                />
+
+                                <a href="https://drive.google.com/file/d/1tWl5ZYbVJWV0zSjAJ-LTBhtGQVZwcXl_/view?usp=sharing">
+                                    <button>VISUALIZAR</button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </section>
                 <div className="main-content">
-                    <h3 className="h3_montserrat">PRINCIPAL</h3>
+                    <h3 className="h3_montserrat">DOCUMENTO</h3>
                     <div className="principal-content">
                         <div className="card">
                             <div>
@@ -99,7 +127,7 @@ export default function Transparency() {
                         </div>
                         <div className="card">
                             <div>
-                                <p>REGISTRO DE IMOVEL</p>
+                                <p>REGISTRO DE IMÓVEL</p>
                             </div>
                             <img src={iconDocument} alt="" className="icon" />
 
@@ -114,6 +142,46 @@ export default function Transparency() {
                             <img src={iconDocument} alt="" className="icon" />
 
                             <a href="https://drive.google.com/file/d/18vu5crszhtaiOF7XBQR90IXgeWlShq5M/view">
+                                <button>VISUALIZAR</button>
+                            </a>
+                        </div>
+                        <div className="card">
+                            <div>
+                                <p>REGULAMENTO DE CONTRATAÇÃO.1</p>
+                            </div>
+                            <img src={iconDocument} alt="" className="icon" />
+
+                            <a href="https://drive.google.com/file/d/1EyqBvDiqI7BA2mfkQHVI_2gIk3yCBdc-/view?usp=sharing">
+                                <button>VISUALIZAR</button>
+                            </a>
+                        </div>
+                        <div className="card">
+                            <div>
+                                <p>DECLARAÇÃO DE NÃO REMUNERAÇÃO</p>
+                            </div>
+                            <img src={iconDocument} alt="" className="icon" />
+
+                            <a href="https://drive.google.com/file/d/1shWBi_u1XQfp4A9JCsPKSAe7tOuyU5UL/view?usp=sharing">
+                                <button>VISUALIZAR</button>
+                            </a>
+                        </div>
+                        <div className="card">
+                            <div>
+                                <p>RELAÇÂO DE FUNCIONÁRIOS E PAGAMENTOS</p>
+                            </div>
+                            <img src={iconDocument} alt="" className="icon" />
+
+                            <a href="https://drive.google.com/file/d/1xFy-tPe_IS8aUXZKe5GKZMpOB_mLfV0f/view?usp=sharing">
+                                <button>VISUALIZAR</button>
+                            </a>
+                        </div>
+                        <div className="card">
+                            <div>
+                                <p>TERMO DE COLABORAÇÃO</p>
+                            </div>
+                            <img src={iconDocument} alt="" className="icon" />
+
+                            <a href="https://drive.google.com/file/d/1DCD0baUtd83ApyNxFrSc-ZCQl0rNCHki/view">
                                 <button>VISUALIZAR</button>
                             </a>
                         </div>

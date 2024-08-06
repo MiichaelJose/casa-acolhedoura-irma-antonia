@@ -44,15 +44,17 @@ export const Main = styled.main`
     .area-cards {
         margin-top: 1rem;
 
-        > h4 {
+        > h3 {
+            padding-top: 1rem;
+            border-top: 0.1rem solid black;
             text-align: center;
-            color: lightslategray;
         }
     }
 
     .grid-card {
         display: grid;
         place-items: center;
+        margin-top: 1.4rem;
         grid-template-columns: 1fr;
         gap: 2rem;
     }
@@ -73,9 +75,14 @@ export const Main = styled.main`
 
         div {
             width: 100%;
+            height: 30%;
             border-bottom: 2px solid lightgray;
             > p {
-                margin: 5px 0;
+                text-align: center;
+                font-size: 0.78rem;
+                padding: 0.39rem;
+                font-weight: bold;
+                line-height: 1rem;
             }
         }
         a {
@@ -98,7 +105,7 @@ export const Main = styled.main`
         background-color: #f9f9f9;
         border-radius: #f9f9f9;
         padding: 1rem;
-        margin-top: 1rem;
+        margin-top: 2rem;
 
         > .principal-content {
             width: 100%;
