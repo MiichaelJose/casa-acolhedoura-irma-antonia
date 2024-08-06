@@ -28,7 +28,7 @@ export default function Header({ width = "100%" }: HeaderType) {
     };
 
     return (
-        <>
+        <div>
             <Main width={width}>
                 <nav>
                     <Link to={"/"}>
@@ -79,6 +79,6 @@ export default function Header({ width = "100%" }: HeaderType) {
                 </nav>
             </Main>
             {useModal ? modal() : <></>}
-        </>
+        </div>
     );
 }
