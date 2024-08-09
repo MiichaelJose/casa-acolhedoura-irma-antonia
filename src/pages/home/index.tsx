@@ -14,7 +14,7 @@ export default function Inicio() {
         <>
             <Main>
                 <div className="filter">
-                    <Header width="800px" />
+                    <Header />
 
                     <h1 className="h1_super h1_title">
                         Casa acolhedora <br /> irmã Antônia

@@ -7,10 +7,10 @@ export const Main = styled.main`
 
     flex-direction: column;
     align-items: center;
-    background-image: url("/galery/equipe.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #2cc7ff;
 
     .h1_title {
         text-align: center;
@@ -32,7 +32,7 @@ export const Main = styled.main`
 
         > p {
             text-align: center;
-            width: 300px;
+            width: 400px;
             color: white;
             margin-inline: auto;
         }

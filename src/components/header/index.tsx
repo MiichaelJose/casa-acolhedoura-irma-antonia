@@ -1,6 +1,6 @@
 import { Main, Link, Modal } from "./styles";
 
-import iconeLogo from "/casa.png";
+import iconeLogo from "/logo.svg";
 import iconeBarra from "/bars-solid.svg";
 import iconeClose from "/xmark-solid.svg";
 import iconeWhatsapp from "/whatsapp.png";

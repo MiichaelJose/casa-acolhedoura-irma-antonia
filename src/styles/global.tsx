@@ -54,8 +54,8 @@ export default createGlobalStyle`
         font-family: "Bebas Neue", sans-serif;
         font-weight: 400;
         font-style: normal;
-        color: #ffffcc;
         text-align: center;
+        color: white;
     }
 
     .h2_bebasneue, .h3_bebasneue  {
